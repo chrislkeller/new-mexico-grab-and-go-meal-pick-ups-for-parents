@@ -1,0 +1,5815 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast 7:30 AM – 8:30 AM\nLunch 11:45 AM – 12:45 AM",
+        "Zip": "87505",
+        "Street": "Yucca St",
+        "level": "",
+        "school_address": "2100 Yucca St",
+        "Number": "2100",
+        "County": "Santa Fe County",
+        "zip_code": "87505",
+        "Accuracy Score": "1",
+        "city": "Santa Fe",
+        "City": "Santa Fe",
+        "district": "Santa Fe Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Santa Fe High School",
+        "Country": "US",
+        "Source": "City of Santa Fe",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -105.969193,
+          35.649203
+        ],
+        "type": "Point"
+      },
+      "id": "0196892f3a66511f8d258dc08b24463a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87121",
+        "Street": "Corriz Dr SW",
+        "level": "Elementary School",
+        "school_address": "1400 Corriz SW",
+        "Number": "1400",
+        "County": "Bernalillo County",
+        "zip_code": "87121",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 836-0623",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Mary Ann Binford Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.725788,
+          35.051471
+        ],
+        "type": "Point"
+      },
+      "id": "0267a9793d896aac1c9e628c1bb0c77c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87121",
+        "Street": "90th St SW",
+        "level": "Elementary School",
+        "school_address": "554 90th St. SW",
+        "Number": "554",
+        "County": "Bernalillo County",
+        "zip_code": "87121",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 831-6214",
+        "grab_and_go_meals": "",
+        "school_name": "Edward Gonzales Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "3–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.732446,
+          35.065128
+        ],
+        "type": "Point"
+      },
+      "id": "027b068b7246c667c3f896ee56e0a133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "11am to 12 p.m.",
+        "Zip": "87124",
+        "Street": "Southern Blvd SE",
+        "level": "",
+        "school_address": "450 Southern Blvd SE",
+        "Number": "450",
+        "County": "Sandoval County",
+        "zip_code": "87124",
+        "Accuracy Score": "1",
+        "city": "Rio Rancho",
+        "City": "Rio Rancho",
+        "district": "Rio Rancho Public Schools",
+        "meals": "lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Puesta del Sol Elementary School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.728987,
+          35.239394
+        ],
+        "type": "Point"
+      },
+      "id": "035fed43a2820e416a6a01d10738ea7c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87111",
+        "Street": "Comanche Rd NE",
+        "level": "Elementary School",
+        "school_address": "10121 Comanche Rd. NE",
+        "Number": "10121",
+        "County": "Bernalillo County",
+        "zip_code": "87111",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 299-1937",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Mitchell Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.52721,
+          35.124103
+        ],
+        "type": "Point"
+      },
+      "id": "046a4651ab6c3fa4dc8785fdc2f2c9dc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Hartline Rd SW",
+        "level": "High School",
+        "school_address": "129 Hartline SW",
+        "Number": "129",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 243-2395",
+        "grab_and_go_meals": "",
+        "school_name": "School on Wheels Magnet High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.668548,
+          35.068312
+        ],
+        "type": "Point"
+      },
+      "id": "0647fc321756d4a863f7616f72520543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87108",
+        "Street": "Copper Ave NE",
+        "level": "Elementary School",
+        "school_address": "7500 Copper Avenue NE",
+        "Number": "7500",
+        "County": "Bernalillo County",
+        "zip_code": "87108",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 262-1581",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "La Mesa Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.562589,
+          35.079557
+        ],
+        "type": "Point"
+      },
+      "id": "07bb12fa8a4d89bc72ad485b7ce2d531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87112",
+        "Street": "Morris St NE",
+        "level": "Elementary School",
+        "school_address": "2100 Morris St. NE",
+        "Number": "2100",
+        "County": "Bernalillo County",
+        "zip_code": "87112",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 298-3010",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Collet Park Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.522705,
+          35.106563
+        ],
+        "type": "Point"
+      },
+      "id": "08a03f889fa7f76ee37469435690620e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Glenrio Rd NW",
+        "level": "Middle School",
+        "school_address": "5401 Glenrio Road NW",
+        "Number": "5401",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 831-0400",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "John Adams Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.699939,
+          35.09885
+        ],
+        "type": "Point"
+      },
+      "id": "0a7894e23f15e5faa25cda3587c51143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "notes": "",
+        "Zip": "87102",
+        "Street": "Park St",
+        "level": "Middle School",
+        "school_address": "1101 Park SW",
+        "Number": "1101",
+        "County": "Bernalillo County",
+        "zip_code": "87102",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 764-2000",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Washington Middle School",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.659971,
+          35.08522
+        ],
+        "type": "Point"
+      },
+      "id": "0d866f33ed3f698a4ddff36327223088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87116",
+        "Street": "Gibson Blvd SE",
+        "level": "Elementary School",
+        "school_address": "3530 Gibson Blvd. SE",
+        "Number": "3530",
+        "County": "Bernalillo County",
+        "zip_code": "87118",
+        "Accuracy Score": "0.9",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 255-3131",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Kirtland Elementary School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.60493,
+          35.057657
+        ],
+        "type": "Point"
+      },
+      "id": "0da0b1385e40022f5c1d6576fab607cd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87047",
+        "Street": "N Highway 14",
+        "level": "Elementary School",
+        "school_address": "12555 North Hwy. 14",
+        "Number": "12555",
+        "County": "Bernalillo County",
+        "zip_code": "87047",
+        "Accuracy Score": "1",
+        "city": "Sandia Park",
+        "City": "Sandia Park",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 281-3931",
+        "grab_and_go_meals": "",
+        "school_name": "San Antonito STEM Magnet Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.341575,
+          35.170992
+        ],
+        "type": "Point"
+      },
+      "id": "1324d521d905c0ba165d358f726ffdd0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87122",
+        "Street": "Barstow St NE",
+        "level": "Middle School",
+        "school_address": "8400 Barstow NE",
+        "Number": "8400",
+        "County": "Bernalillo County",
+        "zip_code": "87122",
+        "Accuracy Score": "0.9",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 857-9282",
+        "grab_and_go_meals": "",
+        "school_name": "Desert Ridge Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.549199,
+          35.17854
+        ],
+        "type": "Point"
+      },
+      "id": "132c03c6c6cddeb991c7920e24661406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Byron Ave SW",
+        "level": "Elementary School",
+        "school_address": "1921 Byron Avenue SW",
+        "Number": "1921",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 877-2724",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Kit Carson Elementary School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.685642,
+          35.047629
+        ],
+        "type": "Point"
+      },
+      "id": "13a509b7666e3fbc774476ae83299c91"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "notes": "",
+        "Zip": "87116",
+        "Street": "",
+        "level": "Elementary School",
+        "school_address": "Bldg. 25000 - KAFB East",
+        "Number": "",
+        "County": "Bernalillo County",
+        "zip_code": "87116",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 268-2434",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Wherry Elementary School",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.561576,
+          35.054355
+        ],
+        "type": "Point"
+      },
+      "id": "13e35766fd35c65ac13b3cc5a99e95ad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Morningside Dr NE",
+        "level": "Elementary School",
+        "school_address": "3801 Morningside Dr. NE",
+        "Number": "3801",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 881-9855",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Hodgin Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.602371,
+          35.125287
+        ],
+        "type": "Point"
+      },
+      "id": "14bafbc0c7a92f51f2099897ca0c16d2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87106",
+        "Street": "Pershing Ave SE",
+        "level": "Elementary School",
+        "school_address": "3309 Pershing St. SE",
+        "Number": "3309",
+        "County": "Bernalillo County",
+        "zip_code": "87106",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 255-8744",
+        "grab_and_go_meals": "",
+        "school_name": "Bandelier Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.60693,
+          35.070918
+        ],
+        "type": "Point"
+      },
+      "id": "14d7298b00852db75ace773cc8fdd38f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Mae Ave SW",
+        "level": "Elementary School",
+        "school_address": "1700 Mae Ave. SW",
+        "Number": "1700",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 836-7739",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Valle Vista Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.681096,
+          35.076947
+        ],
+        "type": "Point"
+      },
+      "id": "15540913a156b762301cec093f8bebda"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Candelaria Rd NE",
+        "level": "Elementary School",
+        "school_address": "4725 Candelaria Rd. NE",
+        "Number": "4725",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 888-4033",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Bel-Air Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.593225,
+          35.117588
+        ],
+        "type": "Point"
+      },
+      "id": "15b7f6b20477d72e66fe62dbff9ac5d9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87107",
+        "Street": "Solar Rd NW",
+        "level": "Elementary School",
+        "school_address": "1100 Solar Rd. NW",
+        "Number": "1100",
+        "County": "Bernalillo County",
+        "zip_code": "87107",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 344-4412",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Alvarado Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.653484,
+          35.150449
+        ],
+        "type": "Point"
+      },
+      "id": "16a01e01a1273a0fa5a3b8533f66f59c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87108",
+        "Street": "Cardenas Dr SE",
+        "level": "Middle School",
+        "school_address": "1138 Cardenas Drive SE",
+        "Number": "1138",
+        "County": "Bernalillo County",
+        "zip_code": "87108",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 268-3961",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Wilson Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.578484,
+          35.062061
+        ],
+        "type": "Point"
+      },
+      "id": "176a44cfede46dd9edb0b0eb6e1836be"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87112",
+        "Street": "Princess Jeanne Ave NE",
+        "level": "Elementary School",
+        "school_address": "8701 Princess Jeanne St. NE",
+        "Number": "8701",
+        "County": "Bernalillo County",
+        "zip_code": "87112",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 298-7489",
+        "grab_and_go_meals": "",
+        "school_name": "Bellehaven Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.54764,
+          35.098223
+        ],
+        "type": "Point"
+      },
+      "id": "18ae9b0ccf4ed0ba6cac8356fea3847b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast 7:30 AM – 8:30 AM\nLunch 11:45 AM – 12:45 AM",
+        "Zip": "87507",
+        "Street": "Paseo Del Sol",
+        "level": "",
+        "school_address": "4851 Paseo del Sol",
+        "Number": "4851",
+        "County": "Santa Fe County",
+        "zip_code": "87507",
+        "Accuracy Score": "1",
+        "city": "Santa Fe",
+        "City": "Santa Fe",
+        "district": "Santa Fe Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Capital High School",
+        "Country": "US",
+        "Source": "City of Santa Fe",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.042501,
+          35.622964
+        ],
+        "type": "Point"
+      },
+      "id": "19cb734563353b832ba1125f2a2b670f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "11 a.m. to 12 p.m.",
+        "Zip": "87144",
+        "Street": "Franklin Rd NE",
+        "level": "",
+        "school_address": "6800 Franklin Rd NE",
+        "Number": "6800",
+        "County": "Sandoval County",
+        "zip_code": "87144",
+        "Accuracy Score": "1",
+        "city": "Rio Rancho",
+        "City": "Rio Rancho",
+        "district": "Rio Rancho Public Schools",
+        "meals": "lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Sandia Vista Elementary School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.596693,
+          35.318956
+        ],
+        "type": "Point"
+      },
+      "id": "1c0292fddbe65511622170f87612a457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87121",
+        "Street": "118th St SW",
+        "level": "Charter School",
+        "school_address": "4050 118th ST SW",
+        "Number": "4050",
+        "County": "Bernalillo County",
+        "zip_code": "87121",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 253-0300",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "George I. Sánchez Collaborative Community School Charter School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.751264,
+          35.019162
+        ],
+        "type": "Point"
+      },
+      "id": "1c37436e7207b964b2afa137b90616d0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Marna Lynn Ave NW",
+        "level": "Elementary School",
+        "school_address": "5100 Marna Lynn Ave. NW",
+        "Number": "5100",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 898-0923",
+        "grab_and_go_meals": "",
+        "school_name": "Petroglyph Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.681251,
+          35.184497
+        ],
+        "type": "Point"
+      },
+      "id": "1cbc71e1c7a7e351b26f01e88865a939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87120",
+        "Street": "Milne Rd NW",
+        "level": "Elementary School",
+        "school_address": "6325 Milne Rd. NW",
+        "Number": "6325",
+        "County": "Bernalillo County",
+        "zip_code": "87120",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 831-3301",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Chaparral Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.709124,
+          35.1333
+        ],
+        "type": "Point"
+      },
+      "id": "20d971f5bb03b7f0d775e829508f5085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87111",
+        "Street": "Tivoli Ave NE",
+        "level": "Middle School",
+        "school_address": "12015 Tivoli NE",
+        "Number": "12015",
+        "County": "Bernalillo County",
+        "zip_code": "87111",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 298-6896",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Hoover Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.505853,
+          35.122168
+        ],
+        "type": "Point"
+      },
+      "id": "28aee86897f03dc395f114191be7f4d3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87111",
+        "Street": "Moon St NE",
+        "level": "Elementary School",
+        "school_address": "4715 Moon St. NE",
+        "Number": "4715",
+        "County": "Bernalillo County",
+        "zip_code": "87111",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 296-4811",
+        "grab_and_go_meals": "",
+        "school_name": "Osuna Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.543067,
+          35.13538
+        ],
+        "type": "Point"
+      },
+      "id": "2a2e60b915bcf63a98b7e687604e2309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Any APS student can access meals at New Futures. Infant formula will also be made available to New Futures students only.",
+        "Zip": "87110",
+        "Street": "Cutler Ave NE",
+        "level": "High School",
+        "school_address": "5400 Cutler NE",
+        "Number": "5400",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "0.6",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 883-5680",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "New Futures High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.584939,
+          35.104836
+        ],
+        "type": "Point"
+      },
+      "id": "2ad7d45b22794f86c3033343b21bb139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87123",
+        "Street": "Copper Ave NE",
+        "level": "Elementary School",
+        "school_address": "12800 Copper St. NE",
+        "Number": "12800",
+        "County": "Bernalillo County",
+        "zip_code": "87123",
+        "Accuracy Score": "0.6",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 292-7735",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Apache Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.503554,
+          35.077811
+        ],
+        "type": "Point"
+      },
+      "id": "2ae24fd3c20572f53644dfa604e49682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87123",
+        "Street": "Lomas Blvd NE",
+        "level": "High School",
+        "school_address": "12200 Lomas Blvd. NE",
+        "Number": "12200",
+        "County": "Bernalillo County",
+        "zip_code": "87112",
+        "Accuracy Score": "0.9",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 559-2200",
+        "grab_and_go_meals": "",
+        "school_name": "Manzano High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.509871,
+          35.084719
+        ],
+        "type": "Point"
+      },
+      "id": "2bdeecd7f2ffde0bc3c743b6b43d3f79"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87107",
+        "Street": "4th St NW",
+        "level": "Elementary School",
+        "school_address": "7609 Fourth St. NW",
+        "Number": "7609",
+        "County": "Bernalillo County",
+        "zip_code": "87107",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 898-0794",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Los Ranchos Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.63674,
+          35.170016
+        ],
+        "type": "Point"
+      },
+      "id": "2c38e87cfcd92a6dd1e8c6789b9eb214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Ventana Village Rd NW",
+        "level": "Elementary School",
+        "school_address": "6801 Ventana Village Rd.",
+        "Number": "6801",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "0.9",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 890-7375",
+        "grab_and_go_meals": "",
+        "school_name": "Ventana Ranch Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.730564,
+          35.196102
+        ],
+        "type": "Point"
+      },
+      "id": "2d30e993f2cdfb05c57986e56f6199a2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "notes": "",
+        "Zip": "87111",
+        "Street": "Tivoli Ave NE",
+        "level": "Elementary School",
+        "school_address": "12015-B Tivoli Ave. NE",
+        "Number": "12015",
+        "County": "Bernalillo County",
+        "zip_code": "87111",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 298-7486",
+        "grab_and_go_meals": "",
+        "school_name": "John Baker Elementary School",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.506643,
+          35.121291
+        ],
+        "type": "Point"
+      },
+      "id": "2e6bf87616cebe2539fdafa094a15e97"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Candelaria Rd NE",
+        "level": "High School",
+        "school_address": "7801 Candelaria NE",
+        "Number": "7801",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "0.9",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 294-1511",
+        "grab_and_go_meals": "",
+        "school_name": "Sandia High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.556632,
+          35.118328
+        ],
+        "type": "Point"
+      },
+      "id": "2ec984640ae0f8e6e646ba3a86b56726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87122",
+        "Street": "Lowell St NE",
+        "level": "Elementary School",
+        "school_address": "8901 Lowell Dr. NE",
+        "Number": "8901",
+        "County": "Bernalillo County",
+        "zip_code": "87122",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 857-0187",
+        "grab_and_go_meals": "",
+        "school_name": "Double Eagle Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.508379,
+          35.186043
+        ],
+        "type": "Point"
+      },
+      "id": "300e081313117d3b5e7ce1877313cc0e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast 7:30 AM – 8:30 AM\nLunch 11:45 AM – 12:45 AM",
+        "Zip": "87507",
+        "Street": "Avenida De Las Campanas",
+        "level": "",
+        "school_address": "901 Avenida de las Campanas",
+        "Number": "901",
+        "County": "Santa Fe County",
+        "zip_code": "87507",
+        "Accuracy Score": "1",
+        "city": "Santa Fe",
+        "City": "Santa Fe",
+        "district": "Santa Fe Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Kearny Elementary School",
+        "Country": "US",
+        "Source": "City of Santa Fe",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -105.988588,
+          35.64629
+        ],
+        "type": "Point"
+      },
+      "id": "329ea72b31e0ea3bd42ff34d43f15732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Paseo Del Norte NW",
+        "level": "Elementary School",
+        "school_address": "10220 Paseo del Norte NW",
+        "Number": "10220",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 898-0272",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Sierra Vista Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.708698,
+          35.200106
+        ],
+        "type": "Point"
+      },
+      "id": "3330648d6327bb2e6c056b40c3a78777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87112",
+        "Street": "Easterday Dr NE",
+        "level": "Middle School",
+        "school_address": "1111 Easterday NE",
+        "Number": "1111",
+        "County": "Bernalillo County",
+        "zip_code": "87112",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 299-2113",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Grant Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.541696,
+          35.091085
+        ],
+        "type": "Point"
+      },
+      "id": "3821de623938b9cdc1d4778a4aa320d2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "11:30 a.m. to 12:30 p.m.",
+        "Zip": "87144",
+        "Street": "Loma Colorado Blvd NE",
+        "level": "",
+        "school_address": "1600 Loma Colorado Blvd NE",
+        "Number": "1600",
+        "County": "Sandoval County",
+        "zip_code": "87144",
+        "Accuracy Score": "1",
+        "city": "Rio Rancho",
+        "City": "Rio Rancho",
+        "district": "Rio Rancho Public Schools",
+        "meals": "lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Rio Rancho Middle School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.655937,
+          35.283975
+        ],
+        "type": "Point"
+      },
+      "id": "39fd67fc8e0b74a41058c38961f9e4c6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87102",
+        "Street": "Thaxton Ave SE",
+        "level": "Elementary School",
+        "school_address": "415 Thaxton Ave. SE",
+        "Number": "415",
+        "County": "Bernalillo County",
+        "zip_code": "87102",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 764-2005",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "East San Jose Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.64686,
+          35.062444
+        ],
+        "type": "Point"
+      },
+      "id": "3df69921fd29d04114aea6d0832e7fbe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87102",
+        "Street": "Odelia Rd NE",
+        "level": "High School",
+        "school_address": "800 Odelia Rd. NE",
+        "Number": "800",
+        "County": "Bernalillo County",
+        "zip_code": "87102",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 843-6400",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Albuquerque High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.635209,
+          35.096293
+        ],
+        "type": "Point"
+      },
+      "id": "43432cff29faae82645f900f47d243d6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Irving Blvd NW",
+        "level": "Charter School",
+        "school_address": "7125 Irving Blvd. NW",
+        "Number": "7125",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 253-0050",
+        "grab_and_go_meals": "",
+        "school_name": "Coyote Willow Family Magnet Charter School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.735261,
+          35.204586
+        ],
+        "type": "Point"
+      },
+      "id": "4351c976aaaa73b3a84f5f921192286c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Natalie Ave NE",
+        "level": "Middle School",
+        "school_address": "6910 Natalie St. NE",
+        "Number": "6910",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "0.9",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 881-9227",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Cleveland Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.570069,
+          35.127706
+        ],
+        "type": "Point"
+      },
+      "id": "43ed8690bc1a1b4597d7ac0592709210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87108",
+        "Street": "Quincy St SE",
+        "level": "Elementary School",
+        "school_address": "1110 Quincy St. SE",
+        "Number": "1110",
+        "County": "Bernalillo County",
+        "zip_code": "87108",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 255-2008",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Whittier Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.588433,
+          35.064685
+        ],
+        "type": "Point"
+      },
+      "id": "451e727a693152f2ac786e0144f806a1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "notes": "",
+        "Zip": "87109",
+        "Street": "Montgomery Blvd NE",
+        "level": "High School",
+        "school_address": "5325 Montgomery NE",
+        "Number": "5325",
+        "County": "Bernalillo County",
+        "zip_code": "87109",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 878-6400",
+        "grab_and_go_meals": "",
+        "school_name": "Nex+Gen Academy Magnet High School",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.583204,
+          35.131079
+        ],
+        "type": "Point"
+      },
+      "id": "465e1031e5d0fd5ed746aba333d8ac99"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87048",
+        "Street": "Target Rd",
+        "level": "Elementary School",
+        "school_address": "200 Target Road",
+        "Number": "200",
+        "County": "Sandoval County",
+        "zip_code": "87048",
+        "Accuracy Score": "1",
+        "city": "Corrales",
+        "City": "Corrales",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 792-7400",
+        "grab_and_go_meals": "",
+        "school_name": "Corrales Elementary School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.610587,
+          35.2276
+        ],
+        "type": "Point"
+      },
+      "id": "47276ff21598acf1458a7b5bf29e5098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast can be picked up between 8 and 9 a.m., and lunch can be picked up between noon and 1 p.m.",
+        "Zip": "88012",
+        "Street": "Metro Park St",
+        "level": "",
+        "school_address": "7125 Metro Park Dr.",
+        "Number": "7125",
+        "County": "Doña Ana County",
+        "zip_code": "88005",
+        "Accuracy Score": "0.8",
+        "city": "Las Cruces",
+        "City": "Las Cruces",
+        "district": "Las Cruces Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Metro Verde Splash Pad/Park",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.732582,
+          32.401496
+        ],
+        "type": "Point"
+      },
+      "id": "472ef6a627b0141ecb04ae965851d86a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Barcelona Rd SW",
+        "level": "Elementary School",
+        "school_address": "2311 Barcelona Rd. SW",
+        "Number": "2311",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 877-0400",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Barcelona Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.692536,
+          35.030968
+        ],
+        "type": "Point"
+      },
+      "id": "48de04101a866f19f0d71a10d3758fdb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87121",
+        "Street": "Eucariz Ave SW",
+        "level": "Elementary School",
+        "school_address": "8800 Eucariz Ave. SW",
+        "Number": "8800",
+        "County": "Bernalillo County",
+        "zip_code": "87121",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 833-5830",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Helen Cordero Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–2"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.732588,
+          35.066216
+        ],
+        "type": "Point"
+      },
+      "id": "49361098635ddb971a6bd5ebfe93c149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87112",
+        "Street": "San Jacinto Ave NE",
+        "level": "Elementary School",
+        "school_address": "10900 San Jacinto NE",
+        "Number": "10900",
+        "County": "Bernalillo County",
+        "zip_code": "87112",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 298-5009",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "McCollum Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.527702,
+          35.089387
+        ],
+        "type": "Point"
+      },
+      "id": "49a39cb4009bb965e61f34afe40b8fb7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Monroe St NE",
+        "level": "Charter School",
+        "school_address": "3303 Monroe NE",
+        "Number": "3303",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 888-1647",
+        "grab_and_go_meals": "",
+        "school_name": "Desert Willow Family Magnet Charter School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.591836,
+          35.121983
+        ],
+        "type": "Point"
+      },
+      "id": "49dc6598048d9f1a723c29c78199c0a6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Paradise Blvd NW",
+        "level": "Elementary School",
+        "school_address": "6121 Paradise Blvd. NW",
+        "Number": "6121",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 792-3254",
+        "grab_and_go_meals": "",
+        "school_name": "Sunset View Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.716029,
+          35.190276
+        ],
+        "type": "Point"
+      },
+      "id": "4a69d4b5475750906c7096d66d7add92"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87102",
+        "Street": "Mountain Rd NE",
+        "level": "High School",
+        "school_address": "807 Mountain RD NE",
+        "Number": "807",
+        "County": "Bernalillo County",
+        "zip_code": "87102",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 247-3658",
+        "grab_and_go_meals": "",
+        "school_name": "Career Enrichment Center & Early College Academy Magnet High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.635219,
+          35.096067
+        ],
+        "type": "Point"
+      },
+      "id": "4aaec633a04886cc796247f61d6df2a1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "11:30 to 12:30 p.m.",
+        "Zip": "87144",
+        "Street": "Night Sky Ave NE",
+        "level": "",
+        "school_address": "1001 Night Sky Ave NE",
+        "Number": "1001",
+        "County": "Sandoval County",
+        "zip_code": "87144",
+        "Accuracy Score": "1",
+        "city": "Rio Rancho",
+        "City": "Rio Rancho",
+        "district": "Rio Rancho Public Schools",
+        "meals": "lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Colinas del Norte Elementary School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.715599,
+          35.298131
+        ],
+        "type": "Point"
+      },
+      "id": "4b7b0fdf6daac0164bfed3a72ff9805e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87111",
+        "Street": "Cairo Dr NE",
+        "level": "Elementary School",
+        "school_address": "4720 Cairo Dr. NE",
+        "Number": "4720",
+        "County": "Bernalillo County",
+        "zip_code": "87111",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 296-9536",
+        "grab_and_go_meals": "",
+        "school_name": "S. Y. Jackson Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.509511,
+          35.134916
+        ],
+        "type": "Point"
+      },
+      "id": "4bb91dff090bb2d9895e0aea6fb93046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87109",
+        "Street": "Montgomery Blvd NE",
+        "level": "High School",
+        "school_address": "5323 Montgomery Blvd. NE",
+        "Number": "5323",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "0.9",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 883-7222",
+        "grab_and_go_meals": "",
+        "school_name": "Del Norte High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.583358,
+          35.133134
+        ],
+        "type": "Point"
+      },
+      "id": "4ecc58038979694053633e3fb1968f88"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87106",
+        "Street": "Sunshine Terrace Ave SE",
+        "level": "Elementary School",
+        "school_address": "1700 Sunshine Terrace SE",
+        "Number": "1700",
+        "County": "Bernalillo County",
+        "zip_code": "87106",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 764-2011",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Lowell Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.629096,
+          35.063442
+        ],
+        "type": "Point"
+      },
+      "id": "54b55e5e2794bc26f18924fa95c6c5ac"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87107",
+        "Street": "2nd St NW",
+        "level": "Middle School",
+        "school_address": "5100 2nd St. NW",
+        "Number": "5100",
+        "County": "Bernalillo County",
+        "zip_code": "87107",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 468-7223",
+        "grab_and_go_meals": "",
+        "school_name": "Juvenile Detention Center Educational Unit Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.636464,
+          35.13272
+        ],
+        "type": "Point"
+      },
+      "id": "5a815b01bb9bc206798818d9f46f5782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87107",
+        "Street": "San Isidro St NW",
+        "level": "Elementary School",
+        "school_address": "3100 San Isidro Rd. NW",
+        "Number": "3100",
+        "County": "Bernalillo County",
+        "zip_code": "87107",
+        "Accuracy Score": "0.9",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 345-1432",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Cochiti Elementary School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.66414,
+          35.115919
+        ],
+        "type": "Point"
+      },
+      "id": "5ae6385e7bc4e68dbed5f33578e2c6cb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87109",
+        "Street": "Palomas Ave NE",
+        "level": "Elementary School",
+        "school_address": "6700 Palomas Ave. NE",
+        "Number": "6700",
+        "County": "Bernalillo County",
+        "zip_code": "87109",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 821-0185",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "E. G. Ross Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.573896,
+          35.172222
+        ],
+        "type": "Point"
+      },
+      "id": "5c0cebe5b342c8e27a94407af13e5704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87106",
+        "Street": "Indian School Rd NE",
+        "level": "Elementary School",
+        "school_address": "3100 Indian School NE",
+        "Number": "3100",
+        "County": "Bernalillo County",
+        "zip_code": "87106",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 260-2040",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Montezuma Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.609689,
+          35.101053
+        ],
+        "type": "Point"
+      },
+      "id": "5c8460b5afc6a51100ff51977be4b1f0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87111",
+        "Street": "Shoshone Rd NE",
+        "level": "Elementary School",
+        "school_address": "9110 Shoshone Rd. NE",
+        "Number": "9110",
+        "County": "Bernalillo County",
+        "zip_code": "87111",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 291-6842",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Sombra Del Monte Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.540687,
+          35.117238
+        ],
+        "type": "Point"
+      },
+      "id": "5d97d40909bd667e3c82c2891a959d1f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Los Padillas Rd SW",
+        "level": "Elementary School",
+        "school_address": "2525 Los Padillas Rd. SW",
+        "Number": "2525",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 877-0108",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Los Padillas Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.709617,
+          34.958641
+        ],
+        "type": "Point"
+      },
+      "id": "6020f4facbead2a9c3d2dff0ee9f7a94"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Seven Bar Loop Rd NW",
+        "level": "Elementary School",
+        "school_address": "4501 Seven Bar Loop NW",
+        "Number": "4501",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 899-2797",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "7 Bar Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.671703,
+          35.204823
+        ],
+        "type": "Point"
+      },
+      "id": "618a78fa826aaddcdbfeb4a94c175109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Texas St NE",
+        "level": "Middle School",
+        "school_address": "1100 Texas St. NE",
+        "Number": "1100",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 265-7741",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Hayes Dual Language Magnet Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.552944,
+          35.090398
+        ],
+        "type": "Point"
+      },
+      "id": "63f3917f4897e54b5602e27bec79f3e5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Camino Del Valle SW",
+        "level": "Elementary School",
+        "school_address": "1724 Camino Del Valle SW",
+        "Number": "1724",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 877-4799",
+        "grab_and_go_meals": "",
+        "school_name": "Adobe Acres Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.685631,
+          35.021727
+        ],
+        "type": "Point"
+      },
+      "id": "6717ad1d59e9d8f2818ac6a4e035b407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87102",
+        "Street": "Atlantic Ave SW",
+        "level": "Elementary School",
+        "school_address": "900 Atlantic St. SW",
+        "Number": "900",
+        "County": "Bernalillo County",
+        "zip_code": "87102",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 764-2020",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Dolores Gonzales Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.658666,
+          35.076698
+        ],
+        "type": "Point"
+      },
+      "id": "683e791e84b1d88a351c87e49961f91d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast can be picked up between 8 and 9 a.m., and lunch can be picked up between noon and 1 p.m.",
+        "Zip": "88007",
+        "Street": "L B Lindbeck Rd",
+        "level": "",
+        "school_address": "12060 Lindbeck Rd.",
+        "Number": "12060",
+        "County": "Doña Ana County",
+        "zip_code": "88007",
+        "Accuracy Score": "1",
+        "city": "Las Cruces",
+        "City": "Las Cruces",
+        "district": "Las Cruces Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Radium Springs Community Center",
+        "Country": "US",
+        "Source": "Dona Ana",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.904151,
+          32.491484
+        ],
+        "type": "Point"
+      },
+      "id": "68471bd7ed969201f86cb9a5acfebcf3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87109",
+        "Street": "Barstow St NE",
+        "level": "Elementary School",
+        "school_address": "7500 Barstow St. NE",
+        "Number": "7500",
+        "County": "Bernalillo County",
+        "zip_code": "87109",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 821-1810",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Dennis Chavez Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.549992,
+          35.168198
+        ],
+        "type": "Point"
+      },
+      "id": "69fff8716fc6a6a22035d06049360d24"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87107",
+        "Street": "Schulte Rd NW",
+        "level": "Middle School",
+        "school_address": "620 Schulte Road NW",
+        "Number": "620",
+        "County": "Bernalillo County",
+        "zip_code": "87107",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 344-4389",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Taft Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.641611,
+          35.155403
+        ],
+        "type": "Point"
+      },
+      "id": "6a500284bc726302690d22e65b111a2e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87112",
+        "Street": "Constitution Ave NE",
+        "level": "Elementary School",
+        "school_address": "12701 Constitution Ave. NE",
+        "Number": "12701",
+        "County": "Bernalillo County",
+        "zip_code": "87112",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 296-5655",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Chelwood Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.504689,
+          35.094684
+        ],
+        "type": "Point"
+      },
+      "id": "6ba373c4fda1eebe9d7372ae82ab1947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Hendrix Rd NE",
+        "level": "Elementary School",
+        "school_address": "5700 Hendrix Rd. NE",
+        "Number": "5700",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 881-9797",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Governor Bent Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.581123,
+          35.128974
+        ],
+        "type": "Point"
+      },
+      "id": "6f07c7515b2b3957ea8f88f2b2cf9552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Claremont Ave NE",
+        "level": "Elementary School",
+        "school_address": "6300 Claremont Ave. NE",
+        "Number": "6300",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 881-8313",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Zuni Technology and Communication Magnet Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.575524,
+          35.111869
+        ],
+        "type": "Point"
+      },
+      "id": "700da9e19f9aaecab1ffce2c1f06bbe2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Comanche Rd NE",
+        "level": "Middle School",
+        "school_address": "4500 Comanche Road NE",
+        "Number": "4500",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 881-9390",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "McKinley Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.59398,
+          35.121726
+        ],
+        "type": "Point"
+      },
+      "id": "70280c51a242949dbe968ab305711042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast can be picked up between 8 and 9 a.m., and lunch can be picked up between noon and 1 p.m.",
+        "Zip": "88007",
+        "Street": "Ledesma Dr",
+        "level": "",
+        "school_address": "5745 Ledesma Dr.",
+        "Number": "5745",
+        "County": "Doña Ana County",
+        "zip_code": "88005",
+        "Accuracy Score": "0.9",
+        "city": "Las Cruces",
+        "City": "Las Cruces",
+        "district": "Las Cruces Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Doña Ana Community Resource Center",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.816167,
+          32.393199
+        ],
+        "type": "Point"
+      },
+      "id": "723a5d863d137d8598dd1c8a9110e667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "2nd St SW",
+        "level": "Elementary School",
+        "school_address": "5317 Second St. SW",
+        "Number": "5317",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 877-3800",
+        "grab_and_go_meals": "",
+        "school_name": "Mountain View Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.664453,
+          35.001882
+        ],
+        "type": "Point"
+      },
+      "id": "727ec1017e2a5ad4965a896677a23347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Paradise Blvd NW",
+        "level": "Middle School",
+        "school_address": "6100 Paradise Blvd NW",
+        "Number": "6100",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 897-0101",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "James Monroe Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.71553,
+          35.190858
+        ],
+        "type": "Point"
+      },
+      "id": "73f363b7e907c0302cfcdb658aeb7ebf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87111",
+        "Street": "Montgomery Blvd NE",
+        "level": "High School",
+        "school_address": "11300 Montgomery Blvd NE",
+        "Number": "11300",
+        "County": "Bernalillo County",
+        "zip_code": "87111",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 296-4871",
+        "grab_and_go_meals": "",
+        "school_name": "Eldorado High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.509799,
+          35.129318
+        ],
+        "type": "Point"
+      },
+      "id": "75c67d622d74d20dad7add0d7321ca95"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87106",
+        "Street": "University Blvd SE",
+        "level": "High School",
+        "school_address": "940 University Blvd. SE ",
+        "Number": "940",
+        "County": "Bernalillo County",
+        "zip_code": "87106",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 224-4880",
+        "grab_and_go_meals": "",
+        "school_name": "College and Career Magnet High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.627715,
+          35.071552
+        ],
+        "type": "Point"
+      },
+      "id": "766d80c3fe9a65b95b236517f21361e2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Hughes Rd SW",
+        "level": "Elementary School",
+        "school_address": "2936 Hughes Rd. SW",
+        "Number": "2936",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 873-8512",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Navajo Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.710408,
+          35.032832
+        ],
+        "type": "Point"
+      },
+      "id": "769a2bc65654f1ca5611b3936b87fd6c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87108",
+        "Street": "Cardenas Dr SE",
+        "level": "High School",
+        "school_address": "1100 Cardenas Dr. SE",
+        "Number": "1100",
+        "County": "Bernalillo County",
+        "zip_code": "87108",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 872-6800",
+        "grab_and_go_meals": "",
+        "school_name": "Transition Services High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "Ages 18–22"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.579393,
+          35.063384
+        ],
+        "type": "Point"
+      },
+      "id": "77c09faeb718186bd052646d99910965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87108",
+        "Street": "Jefferson St NE",
+        "level": "Elementary School",
+        "school_address": "440 Jefferson St. NE",
+        "Number": "440",
+        "County": "Bernalillo County",
+        "zip_code": "87108",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 260-2020",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Zia Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.591904,
+          35.085043
+        ],
+        "type": "Point"
+      },
+      "id": "797fad55c6ad7e33b0f0b6e6cfc7c6e6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87122",
+        "Street": "Wilshire Ave NE",
+        "level": "High School",
+        "school_address": "7801 Wilshire Ave",
+        "Number": "7801",
+        "County": "Bernalillo County",
+        "zip_code": "87122",
+        "Accuracy Score": "0.9",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 823-2327",
+        "grab_and_go_meals": "",
+        "school_name": "La Cueva High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.556478,
+          35.182927
+        ],
+        "type": "Point"
+      },
+      "id": "7a4378373c2c8fc4a80da1712175857e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Pennsylvania St NE",
+        "level": "Elementary School",
+        "school_address": "1700 Pennsylvania St. NE",
+        "Number": "1700",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 299-9010",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Inez Science and Technology Magnet Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.558545,
+          35.100996
+        ],
+        "type": "Point"
+      },
+      "id": "7adc08ab06443d1cbc0fe5e40d398e93"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "nearest_rooftop_match",
+        "notes": "",
+        "Zip": "87059",
+        "Street": "N Highway 14",
+        "level": "Middle School",
+        "school_address": "11799 South Highway 14",
+        "Number": "11896",
+        "County": "Bernalillo County",
+        "zip_code": "87059",
+        "Accuracy Score": "0.53",
+        "city": "Albuquerque",
+        "City": "Tijeras",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 281-3316",
+        "grab_and_go_meals": "",
+        "school_name": "Roosevelt Middle School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.38038,
+          35.088352
+        ],
+        "type": "Point"
+      },
+      "id": "7cb363ed4a192062ed9999c117cc096b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87112",
+        "Street": "Brentwood Hills Blvd NE",
+        "level": "Elementary School",
+        "school_address": "12415 Brentwood Hills NE",
+        "Number": "12415",
+        "County": "Bernalillo County",
+        "zip_code": "87112",
+        "Accuracy Score": "0.5",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 291-6819",
+        "grab_and_go_meals": "",
+        "school_name": "Onate Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.504042,
+          35.105331
+        ],
+        "type": "Point"
+      },
+      "id": "7f4be4cd31d8cab4f9932d057d6441fa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast 7:30 AM – 8:30 AM\nLunch 11:45 AM – 12:45 AM",
+        "Zip": "87505",
+        "Street": "Avenida Chaparral",
+        "level": "",
+        "school_address": "2451 Avenida Chaparral",
+        "Number": "2451",
+        "County": "Santa Fe County",
+        "zip_code": "87505",
+        "Accuracy Score": "1",
+        "city": "Santa Fe",
+        "City": "Santa Fe",
+        "district": "Santa Fe Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Chaparral Elementary School",
+        "Country": "US",
+        "Source": "City of Santa Fe",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -105.967105,
+          35.644099
+        ],
+        "type": "Point"
+      },
+      "id": "8265efb5687496c0b9ac3e3220a8cae7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87123",
+        "Street": "General Somervell St NE",
+        "level": "Elementary School",
+        "school_address": "420 General Somervell St. NE",
+        "Number": "420",
+        "County": "Bernalillo County",
+        "zip_code": " 87123-1150",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 299-4424",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Hawthorne Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.541395,
+          35.079033
+        ],
+        "type": "Point"
+      },
+      "id": "837ecedefac38d1b0b1c977d65609bf1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "notes": "Breakfast 7:30 AM – 8:30 AM\nLunch 11:45 AM – 12:45 AM",
+        "Zip": "87507",
+        "Street": "",
+        "level": "",
+        "school_address": "501 Airport Rd",
+        "Number": "",
+        "County": "Santa Fe County",
+        "zip_code": "87507",
+        "Accuracy Score": "0.3",
+        "city": "Santa Fe",
+        "City": "Santa Fe",
+        "district": "Santa Fe Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Sweeney Elementary School",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.073414,
+          35.625075
+        ],
+        "type": "Point"
+      },
+      "id": "846d45fc9449bc5fb88fb127e73583a9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Constitution Ave NE",
+        "level": "Elementary School",
+        "school_address": "6316 Constitution Ave. NE",
+        "Number": "6316",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 255-8337",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Mark Twain Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.57359,
+          35.093651
+        ],
+        "type": "Point"
+      },
+      "id": "86cf2fb07c367fc858ce33e8504276f0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Cutler Ave NE",
+        "level": "High School",
+        "school_address": "5300 Cutler NE",
+        "Number": "5300",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "0.6",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 247-4209",
+        "grab_and_go_meals": "",
+        "school_name": "eCADEMY Magnet High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.585239,
+          35.105159
+        ],
+        "type": "Point"
+      },
+      "id": "8716101db24c2d219a9da86508bae330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87106",
+        "Street": "Girard Blvd NE",
+        "level": "Middle School",
+        "school_address": "712 Girard Blvd. NE",
+        "Number": "712",
+        "County": "Bernalillo County",
+        "zip_code": "87106",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 255-8691",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Jefferson Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.611279,
+          35.088414
+        ],
+        "type": "Point"
+      },
+      "id": "8911f721fcae32dcb620eef4db2632b8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87111",
+        "Street": "San Victorio Ave NE",
+        "level": "Elementary School",
+        "school_address": "11701 San Victorio Ave. NE",
+        "Number": "11701",
+        "County": "Bernalillo County",
+        "zip_code": "87111",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 293-4259",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Georgia O'Keeffe Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.509894,
+          35.148999
+        ],
+        "type": "Point"
+      },
+      "id": "8a56ebf61c3ba219d119f2e87eb46ce8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87122",
+        "Street": "Ventura St NE",
+        "level": "Elementary School",
+        "school_address": "9301 Ventura NE",
+        "Number": "9301",
+        "County": "Bernalillo County",
+        "zip_code": "87122",
+        "Accuracy Score": "0.9",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 856-6578",
+        "grab_and_go_meals": "",
+        "school_name": "North Star Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.544246,
+          35.192361
+        ],
+        "type": "Point"
+      },
+      "id": "8aab0e993a1869f3bf35e3b78740de8d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87108",
+        "Street": "Coal Ave SE",
+        "level": "High School",
+        "school_address": "4700 Coal Avenue SE",
+        "Number": "4700",
+        "County": "Bernalillo County",
+        "zip_code": "87108",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 265-3711",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Highland High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.591135,
+          35.074907
+        ],
+        "type": "Point"
+      },
+      "id": "8b4652b656fc337638090df25a971473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87102",
+        "Street": "Edith Blvd NE",
+        "level": "Elementary School",
+        "school_address": "400 Edith Blvd. NE",
+        "Number": "400",
+        "County": "Bernalillo County",
+        "zip_code": "87102",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 764-2024",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Longfellow Dual Language Magnet Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.640894,
+          35.086807
+        ],
+        "type": "Point"
+      },
+      "id": "8ba682531867640802f47aa37041912a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87121",
+        "Street": "Benavides Rd SW",
+        "level": "Middle School",
+        "school_address": "9400 Benavides Road SW",
+        "Number": "9400",
+        "County": "Bernalillo County",
+        "zip_code": "87121",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 836-3030",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Truman Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.737098,
+          35.051049
+        ],
+        "type": "Point"
+      },
+      "id": "8bbdbcbf0905d58fc0f8ddda96538f2e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87112",
+        "Street": "Indian School Rd NE",
+        "level": "Middle School",
+        "school_address": "10600 Indian School Rd. NE",
+        "Number": "10600",
+        "County": "Bernalillo County",
+        "zip_code": "87112",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 299-7377",
+        "grab_and_go_meals": "",
+        "school_name": "Jackson Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.52755,
+          35.099722
+        ],
+        "type": "Point"
+      },
+      "id": "8d1059900b8e427fec9e66180b76b1e1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87109",
+        "Street": "Harper Dr NE",
+        "level": "Elementary School",
+        "school_address": "6504 Harper Dr. NE",
+        "Number": "6504",
+        "County": "Bernalillo County",
+        "zip_code": "87109",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 821-9393",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Arroyo Del Oso Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.575332,
+          35.151982
+        ],
+        "type": "Point"
+      },
+      "id": "8ea2aeb90b476d7088af6af2bffebfc4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "notes": "",
+        "Zip": "87107",
+        "Street": "",
+        "level": "Middle School",
+        "school_address": "3501 Sixth Street NW",
+        "Number": "",
+        "County": "Bernalillo County",
+        "zip_code": "87107",
+        "Accuracy Score": "0.33",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 344-1647",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Garfield STEM Magnet Middle School",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.638281,
+          35.140444
+        ],
+        "type": "Point"
+      },
+      "id": "8eefe5804561f334bca0931abdf91a12"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Rainbow Blvd NW",
+        "level": "High School",
+        "school_address": "8100 Rainbow Road NW",
+        "Number": "8100",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "0.5",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 890-0343",
+        "grab_and_go_meals": "",
+        "school_name": "Volcano Vista High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.732218,
+          35.177957
+        ],
+        "type": "Point"
+      },
+      "id": "8f38acff24ac270f5cc345868138f77c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87120",
+        "Street": "Tierra Pintada Blvd NW",
+        "level": "Charter School",
+        "school_address": "9601 Tierra Pintada NW",
+        "Number": "9601",
+        "County": "Bernalillo County",
+        "zip_code": "87120",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 253-0200",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Tres Volcanes Community Collaborative Charter School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.757127,
+          35.099326
+        ],
+        "type": "Point"
+      },
+      "id": "8f839832e1ccfc447bbc4d0d77714a38"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87123",
+        "Street": "Tomasita St NE",
+        "level": "Elementary School",
+        "school_address": "701 Tomasita St. NE",
+        "Number": "701",
+        "County": "Bernalillo County",
+        "zip_code": "87123",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 291-6844",
+        "grab_and_go_meals": "",
+        "school_name": "Tomasita Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.524814,
+          35.080796
+        ],
+        "type": "Point"
+      },
+      "id": "91632cd643661b0062b42ffdb68b7831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87120",
+        "Street": "Homestead Circle North NW",
+        "level": "Elementary School",
+        "school_address": "5401 Homestead Circle NW",
+        "Number": "5401",
+        "County": "Bernalillo County",
+        "zip_code": "87120",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 897-5174",
+        "grab_and_go_meals": "",
+        "school_name": "Chamiza Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.701981,
+          35.169504
+        ],
+        "type": "Point"
+      },
+      "id": "958978a828d9d93aee1efdea58f53bd8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87111",
+        "Street": "Camero Ave NE",
+        "level": "Middle School",
+        "school_address": "11001 Camero Rd. NE",
+        "Number": "11001",
+        "County": "Bernalillo County",
+        "zip_code": "87111",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 292-2530",
+        "grab_and_go_meals": "",
+        "school_name": "Eisenhower Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.518095,
+          35.145754
+        ],
+        "type": "Point"
+      },
+      "id": "9645490323ed509c31ce3b2dea9143e4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87121",
+        "Street": "Vermejo Park Dr SW",
+        "level": "Elementary School",
+        "school_address": "2800 Vermejo Park Dr. SW",
+        "Number": "2800",
+        "County": "Bernalillo County",
+        "zip_code": "87121",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 452-3137",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Rudolfo Anaya Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.731793,
+          35.035022
+        ],
+        "type": "Point"
+      },
+      "id": "97bd9b5bfd8af347e36a37b0e7a6aecb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87108",
+        "Street": "Louisiana Blvd SE",
+        "level": "Middle School",
+        "school_address": "700 Louisiana Blvd. SE",
+        "Number": "700",
+        "County": "Bernalillo County",
+        "zip_code": "87108",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 268-3833",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Van Buren Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.566645,
+          35.066386
+        ],
+        "type": "Point"
+      },
+      "id": "97e9cc155061adf9f28b65439b7214fd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87059",
+        "Street": "Public School Rd",
+        "level": "Elementary School",
+        "school_address": "24 Public School Rd.",
+        "Number": "24",
+        "County": "Bernalillo County",
+        "zip_code": "87059",
+        "Accuracy Score": "1",
+        "city": "Tijeras",
+        "City": "Tijeras",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 281-0880",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "A. Montoya Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.394115,
+          35.076807
+        ],
+        "type": "Point"
+      },
+      "id": "98d74937ed8a95f374466d6126aa6608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Alameda Blvd NW",
+        "level": "Elementary School",
+        "school_address": "412 Alameda Blvd. NW",
+        "Number": "412",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 898-0070",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Alameda Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.619199,
+          35.191123
+        ],
+        "type": "Point"
+      },
+      "id": "990c6e8f09171b3424e4ca9df03e7fc3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87123",
+        "Street": "Elizabeth St SE",
+        "level": "Elementary School",
+        "school_address": "801 Elizabeth St. SE",
+        "Number": "801",
+        "County": "Bernalillo County",
+        "zip_code": "87123",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 292-6707",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Manzano Mesa Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.524821,
+          35.061909
+        ],
+        "type": "Point"
+      },
+      "id": "9c2d2da138acd9649ecf65bcb7115de3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Pennsylvania St NE",
+        "level": "Elementary School",
+        "school_address": "3505 Pennsylvania St. NE",
+        "Number": "3505",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 884-5275",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Comanche Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.561119,
+          35.123812
+        ],
+        "type": "Point"
+      },
+      "id": "9e93e6a15708e767c02d6fe38e4de356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87120",
+        "Street": "Mojave St NW",
+        "level": "Elementary School",
+        "school_address": "5701 Mojave NW",
+        "Number": "5701",
+        "County": "Bernalillo County",
+        "zip_code": "87120",
+        "Accuracy Score": "0.9",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 897-3080",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Marie M. Hughes Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.705036,
+          35.160972
+        ],
+        "type": "Point"
+      },
+      "id": "a04b3273e3d82c8ddbe0a13bb611cae7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87120",
+        "Street": "Taylor Ranch Dr NW",
+        "level": "Middle School",
+        "school_address": "6811 Taylor Ranch Dr. NW",
+        "Number": "6811",
+        "County": "Bernalillo County",
+        "zip_code": "87120",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 898-1492",
+        "grab_and_go_meals": "",
+        "school_name": "L.B. Johnson Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.696285,
+          35.161335
+        ],
+        "type": "Point"
+      },
+      "id": "a5293fc840b530d795f76c09fa4360c8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87121",
+        "Street": "Cerrillos Rd SW",
+        "level": "Elementary School",
+        "school_address": "1215 Cerrillos Rd. SW",
+        "Number": "1215",
+        "County": "Bernalillo County",
+        "zip_code": "87121",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 836-7738",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Carlos Rey Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.74973,
+          35.051654
+        ],
+        "type": "Point"
+      },
+      "id": "a77434f970cccf22bd21190208fe7dad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "notes": "11 a.m. to 12 p.m.",
+        "Zip": "87124",
+        "Street": "Nicklaus Dr SE",
+        "level": "",
+        "school_address": "1301 Nicklaus Dr SE",
+        "Number": "",
+        "County": "Sandoval County",
+        "zip_code": "87124",
+        "Accuracy Score": "0.6",
+        "city": "Rio Rancho",
+        "City": "Rio Rancho",
+        "district": "Rio Rancho Public Schools",
+        "meals": "lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Martin Luther King Jr. Elementary School",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.683555,
+          35.247166
+        ],
+        "type": "Point"
+      },
+      "id": "ac5747d81ca788590a7d44d8e9a4058c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87121",
+        "Street": "Bluewater Rd NW",
+        "level": "Middle School",
+        "school_address": "8901 Bluewater NW",
+        "Number": "8901",
+        "County": "Bernalillo County",
+        "zip_code": "87121",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 833-7540",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Jimmy Carter Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.73092,
+          35.083821
+        ],
+        "type": "Point"
+      },
+      "id": "ac97e7ba08d19a4dad75a4720cdb387d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "notes": "Breakfast can be picked up between 8 and 9 a.m., and lunch can be picked up between noon and 1 p.m.",
+        "Zip": "88005",
+        "Street": "Bell Ave",
+        "level": "",
+        "school_address": "304 Bell Ave.",
+        "Number": "304",
+        "County": "Doña Ana County",
+        "zip_code": "88005",
+        "Accuracy Score": "1",
+        "city": "Las Cruces",
+        "City": "Las Cruces",
+        "district": "Las Cruces Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Frank O’Brien Papen Center",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.768836,
+          32.275045
+        ],
+        "type": "Point"
+      },
+      "id": "af6744c41220d74858c2f3a52557976e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast 7:30 AM – 8:30 AM\nLunch 11:45 AM – 12:45 AM",
+        "Zip": "87507",
+        "Street": "Calle Po Ae Pi",
+        "level": "",
+        "school_address": "3200 Calle Po Ae Pi",
+        "Number": "3200",
+        "County": "Santa Fe County",
+        "zip_code": "87501",
+        "Accuracy Score": "0.9",
+        "city": "Santa Fe",
+        "City": "Santa Fe",
+        "district": "Santa Fe Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Ramirez Thomas Elementary School",
+        "Country": "US",
+        "Source": "City of Santa Fe",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.032598,
+          35.643706
+        ],
+        "type": "Point"
+      },
+      "id": "b4babafa5a8a45fbf0f59e785c5b789f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "11 a.m. to 12 p.m.",
+        "Zip": "87124",
+        "Street": "Stapleton Ave NE",
+        "level": "",
+        "school_address": "3100 Stapleton Ave NE",
+        "Number": "3100",
+        "County": "Sandoval County",
+        "zip_code": "87124",
+        "Accuracy Score": "1",
+        "city": "Rio Rancho",
+        "City": "Rio Rancho",
+        "district": "Rio Rancho Public Schools",
+        "meals": "lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Ernest Stapleton Elementary School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.674262,
+          35.271614
+        ],
+        "type": "Point"
+      },
+      "id": "b665e2cdb1db4abc9c338c2ad2c5387e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast can be picked up between 8 and 9 a.m., and lunch can be picked up between noon and 1 p.m.",
+        "Zip": "88011",
+        "Street": "N Roadrunner Pkwy",
+        "level": "",
+        "school_address": "280 Roadrunner Pkwy",
+        "Number": "280",
+        "County": "Doña Ana County",
+        "zip_code": "88011",
+        "Accuracy Score": "1",
+        "city": "Las Cruces",
+        "City": "Las Cruces",
+        "district": "Las Cruces Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Desert Hills Elementary",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.736793,
+          32.327174
+        ],
+        "type": "Point"
+      },
+      "id": "b6ebe3db1b6264ac4a5ae71b5a83b881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Valdora Ave SW",
+        "level": "Middle School",
+        "school_address": "1820 Valdora Rd SW",
+        "Number": "1820",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 877-3770",
+        "grab_and_go_meals": "",
+        "school_name": "Ernie Pyle Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.681648,
+          35.048596
+        ],
+        "type": "Point"
+      },
+      "id": "b6f6669fc90fdb8c4014cd219aefec05"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "notes": "",
+        "Zip": "87116",
+        "Street": "",
+        "level": "Elementary School",
+        "school_address": "21001 Wyoming SE",
+        "Number": "",
+        "County": "Bernalillo County",
+        "zip_code": "87116",
+        "Accuracy Score": "0.33",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 268-4356",
+        "grab_and_go_meals": "",
+        "school_name": "Sandia Base Elementary School",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.561576,
+          35.054355
+        ],
+        "type": "Point"
+      },
+      "id": "b7d8453cb702e21577f01a6e88c49367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87111",
+        "Street": "Moon St NE",
+        "level": "Middle School",
+        "school_address": "3501 Moon St. NE",
+        "Number": "3501",
+        "County": "Bernalillo County",
+        "zip_code": "87111",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 299-4735",
+        "grab_and_go_meals": "",
+        "school_name": "Madison Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.543379,
+          35.121666
+        ],
+        "type": "Point"
+      },
+      "id": "b833347ab99327862442c520f1f5e25f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Raymac Rd SW",
+        "level": "Middle School",
+        "school_address": "2220 Raymac Road SW",
+        "Number": "2220",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 877-6444",
+        "grab_and_go_meals": "",
+        "school_name": "Polk Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.702745,
+          34.977735
+        ],
+        "type": "Point"
+      },
+      "id": "b927b65d660d9980234bd03451a457de"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87107",
+        "Street": "Mission Ave NE",
+        "level": "Elementary School",
+        "school_address": "725 Mission Avenue NE",
+        "Number": "725",
+        "County": "Bernalillo County",
+        "zip_code": "87107",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 344-5269",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Mission Avenue STEM Magnet Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.616617,
+          35.141644
+        ],
+        "type": "Point"
+      },
+      "id": "b94da4485de6d8729d7fc9351a282922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Ellison Dr NW",
+        "level": "High School",
+        "school_address": "1510 Ellison Drive NW",
+        "Number": "1510",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 897-0110",
+        "grab_and_go_meals": "",
+        "school_name": "Cibola High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.663069,
+          35.204122
+        ],
+        "type": "Point"
+      },
+      "id": "ba7f44e9ae4e0cd08c436778d3a3f245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87123",
+        "Street": "Tomasita St NE",
+        "level": "Middle School",
+        "school_address": "721 Tomasita NE",
+        "Number": "721",
+        "County": "Bernalillo County",
+        "zip_code": "87123",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 298-6701",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Kennedy Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.525753,
+          35.083711
+        ],
+        "type": "Point"
+      },
+      "id": "bbeedca0d75625754676f26c051dd622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87121",
+        "Street": "Dennis Chavez Blvd SW",
+        "level": "High School",
+        "school_address": "10800 Dennis Chavez Blvd SW",
+        "Number": "10800",
+        "County": "Bernalillo County",
+        "zip_code": "87121",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 243-1458",
+        "grab_and_go_meals": "",
+        "school_name": "Atrisco Heritage Academy High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.748744,
+          35.022408
+        ],
+        "type": "Point"
+      },
+      "id": "bf485154d3a33a73f4a20504a3654ff0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "11:30 a.m. to 12:30 p.m.",
+        "Zip": "87124",
+        "Street": "Lema Rd SE",
+        "level": "",
+        "school_address": "2287 Lema Rd SE",
+        "Number": "2287",
+        "County": "Sandoval County",
+        "zip_code": "87124",
+        "Accuracy Score": "1",
+        "city": "Rio Rancho",
+        "City": "Rio Rancho",
+        "district": "Rio Rancho Public Schools",
+        "meals": "lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Lincoln Middle School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.685469,
+          35.257005
+        ],
+        "type": "Point"
+      },
+      "id": "bfe6bd4820839600d604d5ee4024afa9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87104",
+        "Street": "Zickert Rd NW",
+        "level": "Elementary School",
+        "school_address": "2436 Zickert Rd. NW",
+        "Number": "2436",
+        "County": "Bernalillo County",
+        "zip_code": "87104",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 764-2017",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Duranes Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.67597,
+          35.110726
+        ],
+        "type": "Point"
+      },
+      "id": "c3cf116cd63573d7b69286fd30623be0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "notes": "",
+        "Zip": "87101",
+        "Street": "",
+        "level": "Middle School",
+        "school_address": "School Address",
+        "Number": "",
+        "County": "Bernalillo County",
+        "zip_code": "",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "Main Office",
+        "grab_and_go_meals": "",
+        "school_name": "School Name Middle School",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": "Grades"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.644831,
+          35.199592
+        ],
+        "type": "Point"
+      },
+      "id": "c68c9bf117e0f4eac6eb037dac61b933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87121",
+        "Street": "Sunset Gardens Rd SW",
+        "level": "Elementary School",
+        "school_address": "6500 Sunset Gardens Rd. SW",
+        "Number": "6500",
+        "County": "Bernalillo County",
+        "zip_code": "87121",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 836-0288",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Alamosa Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.705875,
+          35.071334
+        ],
+        "type": "Point"
+      },
+      "id": "cae42a342bb15f93bb6cc68a2557ebeb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87121",
+        "Street": "Fortuna Rd NW",
+        "level": "High School",
+        "school_address": "6701 Fortuna Rd. NW",
+        "Number": "6701",
+        "County": "Bernalillo County",
+        "zip_code": "87121",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 831-6993",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "West Mesa High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.713193,
+          35.095867
+        ],
+        "type": "Point"
+      },
+      "id": "cbcd9cb312f0b492acbdcf859983a139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast can be picked up between 8 and 9 a.m., and lunch can be picked up between noon and 1 p.m.",
+        "Zip": "88011",
+        "Street": "Porter Dr",
+        "level": "",
+        "school_address": "5589 Porter Dr.",
+        "Number": "5589",
+        "County": "Doña Ana County",
+        "zip_code": "88011",
+        "Accuracy Score": "1",
+        "city": "Las Cruces",
+        "City": "Las Cruces",
+        "district": "Las Cruces Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "East Mesa Recreation Center",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.700678,
+          32.389127
+        ],
+        "type": "Point"
+      },
+      "id": "cc4b32f3f6130d12ffd60dc08a0a2551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87106",
+        "Street": "Monte Vista Blvd NE",
+        "level": "Elementary School",
+        "school_address": "3211 Monte Vista Blvd. NE",
+        "Number": "3211",
+        "County": "Bernalillo County",
+        "zip_code": "87106",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 268-3520",
+        "grab_and_go_meals": "",
+        "school_name": "Monte Vista Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.610847,
+          35.08294
+        ],
+        "type": "Point"
+      },
+      "id": "cd5d207a551bb70f9ca178603049ca34"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast can be picked up between 8 and 9 a.m., and lunch can be picked up between noon and 1 p.m.",
+        "Zip": "88007",
+        "Street": "N Motel Blvd",
+        "level": "",
+        "school_address": "1040 N. Motel Blvd.",
+        "Number": "1040",
+        "County": "Doña Ana County",
+        "zip_code": "88007",
+        "Accuracy Score": "1",
+        "city": "Las Cruces",
+        "City": "Las Cruces",
+        "district": "Las Cruces Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Picacho Middle School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.815231,
+          32.313934
+        ],
+        "type": "Point"
+      },
+      "id": "ceb29f71dd814cc4ae6b514f421d48f8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87120",
+        "Street": "72nd St NW",
+        "level": "Elementary School",
+        "school_address": "1800 72nd St. NW",
+        "Number": "1800",
+        "County": "Bernalillo County",
+        "zip_code": "87120",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 831-5400",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "S. R. Marmon Elementary School",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.718285,
+          35.104614
+        ],
+        "type": "Point"
+      },
+      "id": "d025844a77ffd955f844f7be33e3bdaf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Atrisco Dr SW",
+        "level": "Elementary School",
+        "school_address": "1201 Atrisco Rd. SW",
+        "Number": "1201",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "0.5",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 877-2772",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Atrisco Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.696537,
+          35.061613
+        ],
+        "type": "Point"
+      },
+      "id": "d197677dfd0d80f8a6af637d68b4ff6c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87102",
+        "Street": "Edith Blvd SE",
+        "level": "Elementary School",
+        "school_address": "700 Edith Blvd. SE",
+        "Number": "700",
+        "County": "Bernalillo County",
+        "zip_code": "87102",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 764-2014",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Eugene Field Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.6427,
+          35.076343
+        ],
+        "type": "Point"
+      },
+      "id": "d20ca349a0d63fa23b33b1d23e532052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87107",
+        "Street": "Griegos Rd NW",
+        "level": "Elementary School",
+        "school_address": "225 Griegos Road NW",
+        "Number": "225",
+        "County": "Bernalillo County",
+        "zip_code": "87107",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 761-8415",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "La Luz Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.640264,
+          35.131131
+        ],
+        "type": "Point"
+      },
+      "id": "d3db6f9920415c0ed12194abf13375dc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87107",
+        "Street": "Candelaria Rd NW",
+        "level": "High School",
+        "school_address": "1505 Candelaria Rd. NW",
+        "Number": "1505",
+        "County": "Bernalillo County",
+        "zip_code": "87107",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 345-9021",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Valley High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.660547,
+          35.127365
+        ],
+        "type": "Point"
+      },
+      "id": "d52a37073a2de611239e78a8fd4e46e1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "street_center",
+        "notes": "",
+        "Zip": "87120",
+        "Street": "Gavin Rd NW",
+        "level": "Elementary School",
+        "school_address": "8101 Gavin Dr. NW",
+        "Number": "",
+        "County": "Bernalillo County",
+        "zip_code": "87120",
+        "Accuracy Score": "0.6",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 836-7763",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Painted Sky Elementary School",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.73469,
+          35.094331
+        ],
+        "type": "Point"
+      },
+      "id": "d5bc6474be7464c7c5f5e1b4fe239c80"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87108",
+        "Street": "Georgia St SE",
+        "level": "Elementary School",
+        "school_address": "620 Georgia St. SE",
+        "Number": "620",
+        "County": "Bernalillo County",
+        "zip_code": "87108",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 255-9091",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Emerson Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.570886,
+          35.068163
+        ],
+        "type": "Point"
+      },
+      "id": "d7b2db2adb44a2a00d159930356e9cb3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87111",
+        "Street": "Academy Hills Dr NE",
+        "level": "Elementary School",
+        "school_address": "9801 Academy Hills Dr. NE",
+        "Number": "9801",
+        "County": "Bernalillo County",
+        "zip_code": "87111",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 821-4981",
+        "grab_and_go_meals": "",
+        "school_name": "Hubert Humphrey Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.530498,
+          35.151248
+        ],
+        "type": "Point"
+      },
+      "id": "d9307b819832efa312aca01dc32dcf27"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast 7:30 AM – 8:30 AM\nLunch 11:45 AM – 12:45 AM",
+        "Zip": "87501",
+        "Street": "La Madera St",
+        "level": "",
+        "school_address": "450 La Madera St",
+        "Number": "450",
+        "County": "Santa Fe County",
+        "zip_code": "87501",
+        "Accuracy Score": "1",
+        "city": "Santa Fe",
+        "City": "Santa Fe",
+        "district": "Santa Fe Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Aspen Middle School",
+        "Country": "US",
+        "Source": "City of Santa Fe",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -105.962536,
+          35.684243
+        ],
+        "type": "Point"
+      },
+      "id": "d9dc91fffa820f77d7264a323d83cc95"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87104",
+        "Street": "Mountain Rd NW",
+        "level": "Elementary School",
+        "school_address": "2700 Mountain Rd. NW",
+        "Number": "2700",
+        "County": "Bernalillo County",
+        "zip_code": "87104",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 764-2008",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Reginald Chavez Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.678615,
+          35.09876
+        ],
+        "type": "Point"
+      },
+      "id": "dd262770a0da602557c8c85a6f887628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "Breakfast can be picked up between 8 and 9 a.m., and lunch can be picked up between noon and 1 p.m.",
+        "Zip": "88001",
+        "Street": "E Hadley Ave",
+        "level": "",
+        "school_address": "1600 E. Hadley",
+        "Number": "1600",
+        "County": "Doña Ana County",
+        "zip_code": "88001",
+        "Accuracy Score": "1",
+        "city": "Las Cruces",
+        "City": "Las Cruces",
+        "district": "Las Cruces Public Schools",
+        "meals": "breakfast; lunch",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Meerscheidt Recreation Center",
+        "Country": "US",
+        "Source": "Statewide",
+        "grades": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -106.761556,
+          32.317521
+        ],
+        "type": "Point"
+      },
+      "id": "e032be587998b9921e0219845ddfe501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "place",
+        "notes": "",
+        "Zip": "87107",
+        "Street": "",
+        "level": "Elementary School",
+        "school_address": "1100 MacArthur Rd. NW",
+        "Number": "",
+        "County": "Bernalillo County",
+        "zip_code": "87107",
+        "Accuracy Score": "0.33",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 344-1482",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "MacArthur Elementary School",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.638281,
+          35.140444
+        ],
+        "type": "Point"
+      },
+      "id": "e280ce7be36aec113098d2f4d6387056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87102",
+        "Street": "6th St NW",
+        "level": "Elementary School",
+        "school_address": "513 6th Street NW",
+        "Number": "513",
+        "County": "Bernalillo County",
+        "zip_code": "87102",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 848-9409",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Lew Wallace Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.653593,
+          35.08998
+        ],
+        "type": "Point"
+      },
+      "id": "e36562514beae42ef0fcaa65f49fb761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87107",
+        "Street": "San Isidro St NW",
+        "level": "Elementary School",
+        "school_address": "4040 San Isidro St. NW",
+        "Number": "4040",
+        "County": "Bernalillo County",
+        "zip_code": "87107",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 345-3661",
+        "grab_and_go_meals": "",
+        "school_name": "Griegos Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.663726,
+          35.12868
+        ],
+        "type": "Point"
+      },
+      "id": "e60a19213ad5a997eb9c9872d3a44000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Rainbow Blvd NW",
+        "level": "Middle School",
+        "school_address": "8101 Rainbow Blvd. NW",
+        "Number": "8101",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 792-0698",
+        "grab_and_go_meals": "",
+        "school_name": "Tony Hillerman Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.739532,
+          35.178102
+        ],
+        "type": "Point"
+      },
+      "id": "e614cb52bf930579972600cf8d2e6e66"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Arenal Rd SW",
+        "level": "High School",
+        "school_address": "2300 Arenal Road SW",
+        "Number": "2300",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 873-0220",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Rio Grande High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.695404,
+          35.049505
+        ],
+        "type": "Point"
+      },
+      "id": "e7a6a650151d3f68e47bdf9be267bee4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87112",
+        "Street": "Lexington Ave NE",
+        "level": "Elementary School",
+        "school_address": "10809 Lexington St. NE",
+        "Number": "10809",
+        "County": "Bernalillo County",
+        "zip_code": "87112",
+        "Accuracy Score": "0.6",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 291-6837",
+        "grab_and_go_meals": "",
+        "school_name": "Matheson Park Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.521002,
+          35.114169
+        ],
+        "type": "Point"
+      },
+      "id": "e85185f6d5a7aa98cf82143fe75eb881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "57th St NW",
+        "level": "Elementary School",
+        "school_address": "501 57th St. NW",
+        "Number": "501",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 836-4911",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Lavaland Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.704337,
+          35.090784
+        ],
+        "type": "Point"
+      },
+      "id": "e9b2b536f312878cdae53d72c5082bad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Guadalupe Trl NW",
+        "level": "Middle School",
+        "school_address": "8200 Guadalupe Trail NW",
+        "Number": "8200",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 898-3666",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Taylor Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.63476,
+          35.175687
+        ],
+        "type": "Point"
+      },
+      "id": "f18ab1723eaacf9322d596f9661d19f6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Glenrio Rd NW",
+        "level": "Middle School",
+        "school_address": "5401 Glenrio Rd NW",
+        "Number": "5401",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 352-0343",
+        "grab_and_go_meals": "",
+        "school_name": "Vision Quest Alternative Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.699939,
+          35.09885
+        ],
+        "type": "Point"
+      },
+      "id": "f28e239de337e5e651b883dbc440645a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87110",
+        "Street": "Cutler Ave NE",
+        "level": "High School",
+        "school_address": "5200 Cutler NE",
+        "Number": "5200",
+        "County": "Bernalillo County",
+        "zip_code": "87110",
+        "Accuracy Score": "0.6",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 884-6012",
+        "grab_and_go_meals": "",
+        "school_name": "Freedom Magnet High School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "9–12"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.585821,
+          35.10514
+        ],
+        "type": "Point"
+      },
+      "id": "f2d8605d1adaceb2e20d69ba1c7df6c6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Isleta Blvd SW",
+        "level": "Middle School",
+        "school_address": "3912 Isleta Blvd. SW",
+        "Number": "3912",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 877-1279",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Harrison Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "6–8"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.683467,
+          35.017356
+        ],
+        "type": "Point"
+      },
+      "id": "f37ebde43c4715359d238baf6a79d79b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87102",
+        "Street": "4th St SW",
+        "level": "Elementary School",
+        "school_address": "601 4th St. SW",
+        "Number": "601",
+        "County": "Bernalillo County",
+        "zip_code": "87102",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 843-8283",
+        "grab_and_go_meals": "",
+        "school_name": "Coronado Dual Language Magnet Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.653227,
+          35.079228
+        ],
+        "type": "Point"
+      },
+      "id": "f43a2cdf7b0a765c13ffcef077ef1ff2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Gatewood Ave SW",
+        "level": "Elementary School",
+        "school_address": "1440 Gatewood Rd. SW",
+        "Number": "1440",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "0.6",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 877-2920",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Armijo Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.673188,
+          35.061344
+        ],
+        "type": "Point"
+      },
+      "id": "f7a6255c9e3477cf160a97a838134b00"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87112",
+        "Street": "Indian School Rd NE",
+        "level": "Elementary School",
+        "school_address": "9717 Indian School Rd. NE",
+        "Number": "9717",
+        "County": "Bernalillo County",
+        "zip_code": "87112",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 299-4483",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Janet Kahn School of Integrated Arts Magnet Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.535169,
+          35.102516
+        ],
+        "type": "Point"
+      },
+      "id": "f84ebb028e847656c40663fce08aa8bc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "range_interpolation",
+        "notes": "",
+        "Zip": "87105",
+        "Street": "Don Felipe Rd",
+        "level": "Elementary School",
+        "school_address": "2701 Don Felipe SW",
+        "Number": "2701",
+        "County": "Bernalillo County",
+        "zip_code": "87105",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 877-9718",
+        "grab_and_go_meals": "TRUE",
+        "school_name": "Pajarito Elementary School",
+        "Country": "US",
+        "Source": "TIGER/Line® dataset from the US Census Bureau",
+        "grades": "PreK–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.71524,
+          34.998707
+        ],
+        "type": "Point"
+      },
+      "id": "fa26026d9c84f2652060736fd76dbbc0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87114",
+        "Street": "Rainbow Blvd NW",
+        "level": "Elementary School",
+        "school_address": "8121 Rainbow Blvd. NW",
+        "Number": "8121",
+        "County": "Bernalillo County",
+        "zip_code": "87114",
+        "Accuracy Score": "1",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 792-3262",
+        "grab_and_go_meals": "",
+        "school_name": "Tierra Antigua Elementary School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "K–5"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.742176,
+          35.178801
+        ],
+        "type": "Point"
+      },
+      "id": "fd10ad2bba14ecd1c52ac0d93c36b72f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Accuracy Type": "rooftop",
+        "notes": "",
+        "Zip": "87112",
+        "Street": "Eubank Blvd NE",
+        "level": "Middle School",
+        "school_address": "2611 Eubank N.E.",
+        "Number": "2611",
+        "County": "Bernalillo County",
+        "zip_code": "87112",
+        "Accuracy Score": "0.6",
+        "city": "Albuquerque",
+        "City": "Albuquerque",
+        "district": "Albuquerque Public Schools",
+        "meals": "",
+        "State": "NM",
+        "state": "New Mexico",
+        "main_office_phone": "(505) 298-6752",
+        "grab_and_go_meals": "",
+        "school_name": "Aztec Complex Middle School",
+        "Country": "US",
+        "Source": "Albuquerque",
+        "grades": "PreK–Age 22"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.534682,
+          35.113366
+        ],
+        "type": "Point"
+      },
+      "id": "fda5040b15e8eef296a23e4d3cc747dc"
+    }
+  ],
+  "type": "FeatureCollection"
+}
