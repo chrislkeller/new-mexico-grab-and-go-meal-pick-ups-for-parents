@@ -14,15 +14,44 @@
         <!-- Promise polyfill script required to use Mapbox GL Geocoder in IE 11 -->
         <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css" rel="stylesheet" />
         <link href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css" rel="stylesheet" type="text/css" />
         <link href="static/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <section class="main">
-            <div id="map"></div>
-            <div id="geocoder" class="geocoder"></div>
-        </section>
+        <div class="container-fluid">
+            <section class="overview">
+                <div class="accordion" id="accordionExample">
+                    <h1>New Mexico 'Grab and Go' meal pickups for parents</h1>
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><strong>What is this?</strong>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>New Mexico public schools will close for three weeks beginning March 16 in an effort to limit the potential community spread of the COVID-19 coronavirus.</p>
+                                <p>The closures affect tens of thousands of New Mexico residents, and creates a large burden on families who need to ensure children continue to be fed and cared for.</p>
+                                <p>This project is an attempt to identify those schools offering "Grab and Go" meal pick up for parents. Enter your address and you will see which schools near you are offering this service. In nearly all cases, the student of students must be with a parent in order to receive a meal.</p>
+                                <p>Have an update or a correction? Have a suggestion? Want to jump in to make this better? Fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLwRvW11cBgOA8qbT2cxff7Q_ztKzWDExwxKlyoEqLR8fwaw/viewform" target="blank">this form.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main">
+                <div id="geocoder" class="geocoder"></div>
+                <div id="map"></div>
+            </section>
+        </div>
         <script src="static/scripts.js"></script>
     </body>
 </html>

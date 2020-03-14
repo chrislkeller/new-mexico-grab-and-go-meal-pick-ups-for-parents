@@ -1,22 +1,42 @@
-section.main {
-    width: 75%;
-    margin: 0 auto 0 auto;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-body { margin: 0; padding: 0; }
+section.overview {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    height: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+section.main {
+    width: 100%;
+    height: 500px;
+    margin: 0px auto 0 auto;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+}
 
 /*map*/
 #map {
     width: 80%;
-    margin: 70px auto 0 auto;
-    position: absolute;
-    top: 0; bottom: 0;
+    height: 100%;
+    margin: 0px auto 0 auto;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
 }
 
 .geocoder {
-    position: absolute;
-    z-index: 1;
     width: 50%;
+    margin: 0px auto 0 auto;
+    position: absolute;
+    z-index: 10;
     left: 50%;
     margin-left: -25%;
     top: 10px;
