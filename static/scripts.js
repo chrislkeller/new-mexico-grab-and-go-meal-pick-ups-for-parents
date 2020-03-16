@@ -1,3 +1,5 @@
+var app = app || {};
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2hyaXNsa2VsbGVyIiwiYSI6IkRIakY5bnMifQ.t9zuuBCI4gHbWSnJy6H57w';
 
 var map = new mapboxgl.Map({
@@ -9,7 +11,28 @@ var map = new mapboxgl.Map({
 
 var geocoder = new MapboxGeocoder({
     accessToken: mapboxgl.accessToken,
-    mapboxgl: mapboxgl
+    mapboxgl: mapboxgl,
+
+    countries: 'us',
+
+    // limit results to the geographic bounds of new mexico
+    bbox: [-109.050173, 31.332301, -103.001964, 37.000232],
+
+    // apply a client side filter to further limit results
+
+    filter: function(item) {
+    // returns true if item contains New South Wales region
+        return item.context
+            .map(function(i) {
+                return (
+                    i.id.split('.').shift() === 'region' &&
+                    i.text === 'New Mexico'
+                );
+            })
+            .reduce(function(acc, cur) {
+                return acc || cur;
+            });
+    },
 });
 
 document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
@@ -19,7 +42,7 @@ map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 map.on('load', function () {
     map.addSource("schools", {
         "type": "geojson",
-        "data": "./data/features.geojson"
+        "data": "./data/nm-public_schools-meals-features.geojson"
     });
 
     map.addLayer({
@@ -28,7 +51,7 @@ map.on('load', function () {
         "type": "circle",
         "source": "schools",
         "paint": {
-            "circle-radius": 5,
+            "circle-radius": 7,
             "circle-color": "#2A3478"
         },
         "filter": ["==", "grab_and_go_meals", "TRUE"]
@@ -40,12 +63,28 @@ map.on('click', 'schools', function(e) {
 
     var md = e.features[0].properties;
 
-    var description = md.school_name + ' is located at ' + md.school_address + ' in ' + md.City;
-    if (md.meals.length){
-        description += ' <br /><br /> Offering: ' + md.meals;
+    var description = '';
+
+    if (md.school_name.length){
+        description += md.school_name + ', located at ' +
+        md.school_address + ', in ' + md.city + '<br />';
+    } else {
+        description += md.district + ' in ' + md.city + '<br />';
     }
-    if (md.notes.length){
-        description += ' <br /><br /> Notes: ' + md.notes;
+
+    if (md.dates.length){
+        description += '<br />Date(s): ' + md.dates;
+    }
+
+    if (md.hours.length){
+        description += '<br />Hours: ' + md.hours;
+    }
+
+    if (md.offering.length){
+        description += '<br />Details: ' + md.offering;
+    }
+    if (md.link.length){
+        description += '<br /><a href=' + md.link + ' target=\'blank\'>More information</a>';
     }
 
     // ensure that if the map is zoomed out such that multiple
