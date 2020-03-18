@@ -56,7 +56,30 @@ map.on('load', function () {
         },
         "filter": ["==", "grab_and_go_meals", "TRUE"]
     });
+
+    locateButton(map);
 });
+
+function locateButton(map) {
+    var locateBtn = document.querySelector('.locate-btn');
+    locateBtn.disabled = false;
+    locateBtn.addEventListener('click', function() {
+        if ("geolocation" in navigator) { 
+            navigator.geolocation.getCurrentPosition(function (position) { 
+                var point = [position.coords.longitude, position.coords.latitude];
+                var grabAndGo = map.querySourceFeatures('schools').filter((obj) => {
+                    return obj.properties.grab_and_go_meals == "TRUE";
+                })
+                var nearest = turf.nearestPoint(point, {"type": "FeatureCollection","features": grabAndGo});
+                map.flyTo({center:nearest.geometry.coordinates, zoom: 15});
+            }); 
+        } else {
+            locateBtn.classList.add('d-none');
+        }     
+    })
+}
+
+
 
 map.on('click', 'schools', function(e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
