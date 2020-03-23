@@ -46,6 +46,16 @@ section.main {
     min-width: 100%;
 }
 
+.locate-btn {
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    z-index: 9999;
+
+}
+
 @media all and (max-width: 600px) {
     h1 {
         font-size: 2rem;
