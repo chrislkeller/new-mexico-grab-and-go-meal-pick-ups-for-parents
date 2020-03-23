@@ -5,30 +5,24 @@ body {
 
 section.overview {
     width: 90%;
-    margin: 0 auto 0 auto;
     height: 150px;
+    margin: 0 auto 0 auto;
     position: relative;
     z-index: 10;
 }
 
 section.main {
     width: 100%;
-    height: 500px;
-    margin: 45px auto 0 auto;
+    margin: 0 auto 0 auto;
     position: relative;
-    top: 0;
-    bottom: 0;
     z-index: 5;
 }
 
 /*map*/
 #map {
-    width: 80%;
-    height: 100%;
+    width: 90%;
+    height: 80vh;
     margin: 0px auto 0 auto;
-    position: relative;
-    top: 0;
-    bottom: 0;
     z-index: 5;
 }
 

@@ -6,7 +6,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
     center: [-105.991761, 34.619547],
-    zoom: 5.5
+    zoom: 6
 });
 
 var geocoder = new MapboxGeocoder({
@@ -64,22 +64,20 @@ function locateButton(map) {
     var locateBtn = document.querySelector('.locate-btn');
     locateBtn.disabled = false;
     locateBtn.addEventListener('click', function() {
-        if ("geolocation" in navigator) { 
-            navigator.geolocation.getCurrentPosition(function (position) { 
+        if ("geolocation" in navigator) {
+            navigator.geolocation.getCurrentPosition(function (position) {
                 var point = [position.coords.longitude, position.coords.latitude];
                 var grabAndGo = map.querySourceFeatures('schools').filter((obj) => {
                     return obj.properties.grab_and_go_meals == "TRUE";
                 })
                 var nearest = turf.nearestPoint(point, {"type": "FeatureCollection","features": grabAndGo});
                 map.flyTo({center:nearest.geometry.coordinates, zoom: 15});
-            }); 
+            });
         } else {
             locateBtn.classList.add('d-none');
-        }     
+        }
     })
 }
-
-
 
 map.on('click', 'schools', function(e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
