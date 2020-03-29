@@ -71,13 +71,22 @@ function locateButton(map) {
                     return obj.properties.grab_and_go_meals == "TRUE";
                 })
                 var nearest = turf.nearestPoint(point, {"type": "FeatureCollection","features": grabAndGo});
+                console.log(nearest._geometry.coordinates)
                 map.flyTo({center:nearest.geometry.coordinates, zoom: 15});
+                function onZoomend(){
+                    map.fire('click', {lngLat: {lon: nearest._geometry.coordinates[0], lat: nearest._geometry.coordinates[1] }});
+                    map.off('zoomend',onZoomend);
+                }
+                map.on('zoomend', onZoomend)
             });
         } else {
             locateBtn.classList.add('d-none');
         }
     })
 }
+
+
+
 
 map.on('click', 'schools', function(e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
