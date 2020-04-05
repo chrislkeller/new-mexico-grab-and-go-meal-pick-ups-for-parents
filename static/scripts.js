@@ -12,16 +12,10 @@ var map = new mapboxgl.Map({
 var geocoder = new MapboxGeocoder({
     accessToken: mapboxgl.accessToken,
     mapboxgl: mapboxgl,
-
     countries: 'us',
-
-    // limit results to the geographic bounds of new mexico
     bbox: [-109.050173, 31.332301, -103.001964, 37.000232],
 
-    // apply a client side filter to further limit results
-
     filter: function(item) {
-    // returns true if item contains New South Wales region
         return item.context
             .map(function(i) {
                 return (
@@ -35,6 +29,8 @@ var geocoder = new MapboxGeocoder({
     },
 });
 
+var schools;
+
 document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
 
 map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
@@ -42,7 +38,8 @@ map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 map.on('load', function () {
     map.addSource("schools", {
         "type": "geojson",
-        "data": "./data/nm-public_schools-meals-features.geojson"
+        "data": {"type": "FeatureCollection",
+        "features": []}
     });
 
     map.addLayer({
@@ -57,85 +54,91 @@ map.on('load', function () {
         "filter": ["==", "grab_and_go_meals", "TRUE"]
     });
 
+    fetch("./data/nm-public_schools-meals-features.geojson").then(function(res) {
+        return res.json();
+    }).then(function(data) {
+        schools = data;
+        map.getSource('schools').setData(schools);
+    });
     locateButton(map);
 });
+
+var modal = document.querySelector('.js-modal');
+var modalBackground = document.querySelector('.js-modal__background'); 
+var modalBody = document.querySelector('.js-modal__body');
+
+var modalClose = document.querySelector('.js-modal-close-btn').addEventListener('click', function() {
+    modal.classList.remove('modal--visible');
+    modalBackground.classList.remove('modal__background--visible');
+    modalBody.classList.remove('modal__body--visible');
+});
+
+var about = document.querySelector('.about').addEventListener('click', function() {
+    modal.classList.add('modal--visible');
+    modalBackground.classList.add('modal__background--visible');
+    modalBody.classList.add('modal__body--visible');
+})
 
 function locateButton(map) {
     var locateBtn = document.querySelector('.locate-btn');
     locateBtn.disabled = false;
     locateBtn.addEventListener('click', function() {
         if ("geolocation" in navigator) {
+            document.body.style.cursor = "wait"
             navigator.geolocation.getCurrentPosition(function (position) {
                 var point = [position.coords.longitude, position.coords.latitude];
-                var grabAndGo = map.querySourceFeatures('schools').filter((obj) => {
+                var grabAndGo = schools.features.filter((obj) => {
                     return obj.properties.grab_and_go_meals == "TRUE";
                 })
                 var nearest = turf.nearestPoint(point, {"type": "FeatureCollection","features": grabAndGo});
-                console.log(nearest._geometry.coordinates)
-                map.flyTo({center:nearest.geometry.coordinates, zoom: 15});
-                function onZoomend(){
-                    map.fire('click', {lngLat: {lon: nearest._geometry.coordinates[0], lat: nearest._geometry.coordinates[1] }});
-                    map.off('zoomend',onZoomend);
-                }
-                map.on('zoomend', onZoomend)
+                selectSchool(nearest);
+                document.body.style.cursor = "auto"
             });
         } else {
-            locateBtn.classList.add('d-none');
+            locateBtn.classList.add('hidden');
         }
     })
 }
 
+function selectSchool(school) {
+    map.flyTo({center:school.geometry.coordinates, zoom: 15});
+    var infoContainer = document.querySelector('.info-container');
+    var description = '';
+    var properties = school.properties;
+    if (properties.school_name.length){
+        description += properties.school_name + ', located at ' +
+        properties.school_address + ', in ' + properties.city + '<br />';
+    } else {
+        description += properties.district + ' in ' + properties.city + '<br />';
+    }
 
+    if (properties.dates.length){
+        description += '<br />Date(s): ' + properties.dates;
+    }
 
+    if (properties.hours.length){
+        description += '<br />Hours: ' + properties.hours;
+    }
+
+    if (properties.offering.length){
+        description += '<br />Details: ' + properties.offering;
+    }
+    if (properties.link.length){
+        description += '<br /><a href=' + properties.link + ' target=\'blank\'>More information</a>';
+    }
+    infoContainer.innerHTML = description;
+}
 
 map.on('click', 'schools', function(e) {
-    var coordinates = e.features[0].geometry.coordinates.slice();
+    var selected = e.features[0];
+    selectSchool(selected);
 
-    var md = e.features[0].properties;
-
-    var description = '';
-
-    if (md.school_name.length){
-        description += md.school_name + ', located at ' +
-        md.school_address + ', in ' + md.city + '<br />';
-    } else {
-        description += md.district + ' in ' + md.city + '<br />';
-    }
-
-    if (md.dates.length){
-        description += '<br />Date(s): ' + md.dates;
-    }
-
-    if (md.hours.length){
-        description += '<br />Hours: ' + md.hours;
-    }
-
-    if (md.offering.length){
-        description += '<br />Details: ' + md.offering;
-    }
-    if (md.link.length){
-        description += '<br /><a href=' + md.link + ' target=\'blank\'>More information</a>';
-    }
-
-    // ensure that if the map is zoomed out such that multiple
-    // copies of the feature are visible, the popup appears
-    // over the copy being pointed to.
-    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-    }
-
-    new mapboxgl.Popup()
-        .setLngLat(coordinates)
-        .setHTML(description)
-        .addTo(map);
 });
 
-// indicate that the markers are clickable
 map.on('mouseenter', 'schools', function() {
     map.getCanvas().style.cursor = 'pointer';
 });
 
-// change it back to a pointer when it leaves.
 map.on('mouseleave', 'schools', function() {
     map.getCanvas().style.cursor = '';
 });
