@@ -64,7 +64,7 @@ map.on('load', function () {
 });
 
 var modal = document.querySelector('.js-modal');
-var modalBackground = document.querySelector('.js-modal__background'); 
+var modalBackground = document.querySelector('.js-modal__background');
 var modalBody = document.querySelector('.js-modal__body');
 
 var modalClose = document.querySelector('.js-modal-close-btn').addEventListener('click', function() {
@@ -121,10 +121,10 @@ function selectSchool(school) {
     }
 
     if (properties.offering.length){
-        description += '<br />Details: ' + properties.offering;
+        description += '<br /><br />Details: ' + properties.offering;
     }
     if (properties.link.length){
-        description += '<br /><a href=' + properties.link + ' target=\'blank\'>More information</a>';
+        description += '<br /><br /><a href=' + properties.link + ' target=\'blank\'>More information</a>';
     }
     infoContainer.innerHTML = description;
 }
