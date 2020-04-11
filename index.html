@@ -8,61 +8,70 @@
         <meta name="keywords" content="new mexico, school meals, grab and go meals, albuquerque, parents find school meals">
         <meta name="author" content="Chris L Keller">
         <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
         <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
 
         <!-- Promise polyfill script required to use Mapbox GL Geocoder in IE 11 -->
         <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
-
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://unpkg.com/browse/unfetch@4.1.0/dist/unfetch.js"></script>
         <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
         <link href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css" rel="stylesheet" />
         <link href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css" rel="stylesheet" type="text/css" />
-        <link href="static/styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="./static/style.css">
     </head>
     <body>
-        <div class="container-fluid">
 
-            <section class="overview">
-                <div class="accordion" id="accordionExample">
-                    <h1>New Mexico 'Grab and Go' meal pickups for parents</h1>
+        <div class="modal js-modal">
+            <div class="js-modal__body modal__body">
+              <div class="js-modal-close-btn modal-close-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </div>
+              <div class="modal-content js-modal-content">
+                <p><strong>What is this</strong>:<br /> <a href="https://www.governor.state.nm.us/2020/03/12/new-mexico-schools-to-temporarily-close/" target="blank">New Mexico public schools will close</a> for three weeks beginning March 16 in an effort to limit the potential community spread of the COVID-19 coronavirus.</p>
+                <p>The closures affect tens of thousands of New Mexico residents, and creates a large burden on families who need to ensure children continue to be fed and cared for.</p>
+                <p>This project is an attempt to identify those schools offering "Grab and Go" meal pick up for parents. Enter your address and you will see which schools near you are offering this service. In nearly all cases, the student of students must be with a parent in order to receive a meal.</p>
+                <p>The bulk of the data comes from <a href="https://www.newmexico.gov/education/meal-sites-for-children/" target="blank">a list made available</a> by the state of New Mexico.</p>
+                <p>As the data is subject to change, it's important that you visit the links to indivdual school districts to verify dates, hours and procedures for meal pickup.</p>
+                <p>Have an update or a correction? Have a suggestion? Want to jump in to make this better? Fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLwRvW11cBgOA8qbT2cxff7Q_ztKzWDExwxKlyoEqLR8fwaw/viewform" target="blank">this form</a>. You can also <a href="mailto:christopherlawrencekeller@gmail.com?subject=RE: New Mexico 'Grab and Go' meal pickups for parents map">email</a>.</p>
+                <p><strong>About us</strong>:<br />
 
-                    <div class="card">
-                        <div class="card-header" id="headingOne">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><strong>What is this? Who are we?</strong>
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body">
-                                <p><strong>What is this</strong>:<br /> <a href="https://www.governor.state.nm.us/2020/03/12/new-mexico-schools-to-temporarily-close/" target="blank">New Mexico public schools will close</a> for three weeks beginning March 16 in an effort to limit the potential community spread of the COVID-19 coronavirus.</p>
-                                <p>The closures affect tens of thousands of New Mexico residents, and creates a large burden on families who need to ensure children continue to be fed and cared for.</p>
-                                <p>This project is an attempt to identify those schools offering "Grab and Go" meal pick up for parents. Enter your address and you will see which schools near you are offering this service. In nearly all cases, the student of students must be with a parent in order to receive a meal.</p>
-                                <p>The bulk of the data comes from <a href="https://www.newmexico.gov/education/meal-sites-for-children/" target="blank">a list made available</a> by the state of New Mexico.</p>
-                                <p>As the data is subject to change, it's important that you visit the links to indivdual school districts to verify dates, hours and procedures for meal pickup.</p>
-                                <p>Have an update or a correction? Have a suggestion? Want to jump in to make this better? Fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLwRvW11cBgOA8qbT2cxff7Q_ztKzWDExwxKlyoEqLR8fwaw/viewform" target="blank">this form</a>. You can also <a href="mailto:christopherlawrencekeller@gmail.com?subject=RE: New Mexico 'Grab and Go' meal pickups for parents map">email</a>.</p>
-                                <p><strong>About us</strong>:<br />
+                    <a href="https://www.russbiggs.com/" target="blank">Russ Biggs</a> is a software developer based in Albuquerque, New Mexico. He has worked in a variety of fields ranging from dendroclimatology, advertising, archaeology and humanitarian assistance. <br /><br />
 
-                                    <a href="https://www.russbiggs.com/" target="blank">Russ Biggs</a> is a software developer based in Albuquerque, New Mexico. He has worked in a variety of fields ranging from dendroclimatology, advertising, archaeology and humanitarian assistance. <br /><br />
-
-                                    <a href="http://chrislkeller.com/" target="blank">Chris Keller</a> and his family just moved to Albuquerque. He took on this weekend project because data on where parents could pick up meals wasn't yet available in a way that parents could use efficiently.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="http://chrislkeller.com/" target="blank">Chris Keller</a> and his family just moved to Albuquerque. He took on this weekend project because data on where parents could pick up meals wasn't yet available in a way that parents could use efficiently.</p>
+              </div>
+            </div>
+            <div class="js-modal__background modal__background"></div>
+        </div> 
+            <header class="header">
+                <div class="header-container">
+                    <h1 class="full-title">New Mexico 'Grab and Go' Meal Pickup Locations</h1>
+                    <h1 class="mobile-title">NM 'Grab and Go' Meal Locations</h1>
+                    <div class="about">What is this?</div>
+                </div>
+            </header>
+            <section class="container">
+                <div class="info">
+                    <div class="info-container">Click on a school or district or find the location closest to you to see more information</div>
+                    <button class="locate-btn js-locate-btn" disabled>Find closest Grab and Go</button>
+                </div>
+                <div class="map-container">
+                    <div id="geocoder" class="geocoder"></div>
+                    <div class="reset-zoom js-reset-zoom"><img src="static/minimize.svg" alt=""></div>
+                    <div id="map"></div>
                 </div>
             </section>
-            <section class="main">
-                <div id="geocoder" class="geocoder"></div>
-                <div id="map"></div>
-                <button class="btn btn-primary locate-btn" disabled>Find Closest Grab and Go location</button>
-            </section>
-        </div>
         <script src="static/scripts.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-17387424-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        </script>
     </body>
 </html>
