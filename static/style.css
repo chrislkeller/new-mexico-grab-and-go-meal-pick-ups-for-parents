@@ -68,6 +68,15 @@ body, html {
     transform: translate(-50%, 0);
 }
 
+.reset-zoom {
+    cursor: pointer;
+    z-index: 999;
+    position: absolute;
+    top: 10px;
+    right:10px;
+}
+
+
 #map {
     width:100%;
 }

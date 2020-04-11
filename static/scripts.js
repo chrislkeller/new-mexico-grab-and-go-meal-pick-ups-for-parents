@@ -79,6 +79,15 @@ var about = document.querySelector('.about').addEventListener('click', function(
     modalBody.classList.add('modal__body--visible');
 })
 
+
+var resetZoomBtn = document.querySelector('.js-reset-zoom').addEventListener('click', function() {
+    map.flyTo({
+        center: [-105.991761, 34.619547],
+        zoom: 6,
+        essential: true 
+    });
+});
+
 function locateButton(map) {
     var locateBtn = document.querySelector('.locate-btn');
     locateBtn.disabled = false;
