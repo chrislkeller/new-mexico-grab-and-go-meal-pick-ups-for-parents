@@ -36,31 +36,57 @@ document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
 map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 
 map.on('load', function () {
-    map.addSource("schools", {
-        "type": "geojson",
-        "data": {"type": "FeatureCollection",
-        "features": []}
-    });
+    map.loadImage('/static/school.png', function(err, schoolImg) {
+        if (err) throw err;
+        map.addImage('school', schoolImg);
+        map.loadImage('/static/district.png', function(err, districtImg) {
+            if (err) throw err;
+            map.addImage('district', districtImg);
+            map.addSource("schools", {
+                "type": "geojson",
+                "data": {"type": "FeatureCollection",
+                "features": []}
+            });
 
-    map.addLayer({
-        "id": "schools",
-        "interactive": true,
-        "type": "circle",
-        "source": "schools",
-        "paint": {
-            "circle-radius": 7,
-            "circle-color": "#2A3478"
-        },
-        "filter": ["==", "grab_and_go_meals", "TRUE"]
-    });
+            map.addLayer({
+                "id": "schools",
+                "interactive": true,
+                type: 'symbol',
+                "source": "schools",
+                'filter': ['==', 'type', 'school'],
+                layout: {
+                    'icon-allow-overlap': true,
+                    'icon-image': 'school',
+                    'icon-size': 0.33
+                }
+            });
 
-    fetch("./data/nm-public_schools-meals-features.geojson").then(function(res) {
-        return res.json();
-    }).then(function(data) {
-        schools = data;
-        map.getSource('schools').setData(schools);
-    });
-    locateButton(map);
+            map.addLayer({
+                "id": "districts",
+                "interactive": true,
+                type: 'symbol',
+                "source": "schools",
+                'filter': ['==', 'type', 'district'],
+                layout: {
+                    'icon-allow-overlap': true,
+                    'icon-image': 'district',
+                    'icon-size': 0.33
+                }
+            });
+
+            fetch("./data/nm-public_schools-meals-features.geojson").then(function(res) {
+                return res.json();
+            }).then(function(data) {
+                schools = data.features.filter(function(obj){
+                    if (obj.properties.grab_and_go_meals == "TRUE") {
+                        return obj;
+                    }
+                });
+                map.getSource('schools').setData({"type": "FeatureCollection","features":schools});
+            });
+            locateButton(map);
+        })
+    })
 });
 
 var modal = document.querySelector('.js-modal');
@@ -88,7 +114,7 @@ var resetZoomBtn = document.querySelector('.js-reset-zoom').addEventListener('cl
     });
 });
 
-function locateButton(map) {
+function locateButton() {
     var locateBtn = document.querySelector('.locate-btn');
     locateBtn.disabled = false;
     locateBtn.addEventListener('click', function() {
@@ -144,10 +170,24 @@ map.on('click', 'schools', function(e) {
 
 });
 
+map.on('click', 'districts', function(e) {
+    var selected = e.features[0];
+    selectSchool(selected);
+
+});
+
 map.on('mouseenter', 'schools', function() {
     map.getCanvas().style.cursor = 'pointer';
 });
 
 map.on('mouseleave', 'schools', function() {
+    map.getCanvas().style.cursor = '';
+});
+
+map.on('mouseenter', 'districts', function() {
+    map.getCanvas().style.cursor = 'pointer';
+});
+
+map.on('mouseleave', 'districts', function() {
     map.getCanvas().style.cursor = '';
 });
