@@ -36,10 +36,10 @@ document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
 map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 
 map.on('load', function () {
-    map.loadImage('/static/school.png', function(err, schoolImg) {
+    map.loadImage('static/school.png', function(err, schoolImg) {
         if (err) throw err;
         map.addImage('school', schoolImg);
-        map.loadImage('/static/district.png', function(err, districtImg) {
+        map.loadImage('static/district.png', function(err, districtImg) {
             if (err) throw err;
             map.addImage('district', districtImg);
             map.addSource("schools", {
